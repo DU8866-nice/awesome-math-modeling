@@ -1,0 +1,580 @@
+# Source of truth for README.md and README.en.md.
+# Edit this file, then run: python scripts/build_readme.py
+# Each entry needs `repo`, `zh` and `en`. Keep descriptions to one or two sentences.
+# Optional fields:
+#   mode:    auto | collab | guide   (only when the project's README says so)
+#   tags:    cumcm | mcm | gmcm | other   (contests the project names)
+#   skills:  number of skills in the repo
+#   prompt:  true for prompt collections that are not installable skills
+#   note_zh / note_en: one short note shown under the entry
+# Category option `static: true` turns off the 💤 mark for content that does not need updates (papers, notes).
+
+categories:
+  - id: agents
+    zh: "全流程 Agent 应用"
+    en: "End-to-end agent apps"
+    zh_intro: "装好就能用的桌面或网页应用，把读题、建模、写代码、出图、写论文串成一条流水线。大多需要自己填大模型 API Key。"
+    en_intro: "Desktop or web apps that chain problem analysis, modeling, coding, figures and paper writing. Most need your own model API key."
+    items:
+      - repo: jihe520/MathModelAgent
+        zh: "数学建模专用 Agent，自动分析问题、建模、写代码、纠错并撰写论文；桌面版内置 Claude Code 和全套 skill，填一个 API Key 即可开始。"
+        en: "A modeling agent that analyzes the problem, builds models, writes and fixes code and drafts the paper; the desktop build bundles Claude Code and its skills, so you only add an API key."
+        mode: auto
+        skills: 11
+      - repo: usail-hkust/LLM-MM-Agent
+        zh: "港科大 MM-Agent（NeurIPS 2025），把真实建模问题拆成分析、建模、求解、写作的智能体流程；新版另提供可装进 Codex、Claude Code、Cursor 的「数学建模专家」技能包。"
+        en: "MM-Agent from HKUST (NeurIPS 2025), an agent pipeline for real-world modeling problems; a newer release adds a Mathematical Modeling Expert skill pack for Codex, Claude Code and Cursor."
+        mode: auto
+        tags: [mcm]
+      - repo: zhou2030109-glitch/Remit
+        zh: "Remit 数模小助手：协调、建模、代码、论文四个 Agent 像一支队伍协作，题意、方案和最终成果由你确认；本地运行，可断点恢复。"
+        en: "Remit, a local workspace where coordinator, modeler, coder and writer agents work like a team while you sign off on the problem reading, the approach and the result; runs can resume from checkpoints."
+        mode: collab
+      - repo: yjz211/HaJiMi-Math-Model-Agent
+        zh: "本地桌面智能体，0–9 阶段的有状态工作流：冻结题目和数据、逐问建模求解、出图、LaTeX 论文，人工验收后生成代码附录、AI 使用说明和提交包。"
+        en: "A local desktop agent with a stateful 0–9 stage workflow, from freezing the problem and data to per-question models, figures and a LaTeX paper, then a code appendix, AI-use statement and submission zip after your review."
+        mode: collab
+      - repo: 123-qw-as/Beacon
+        zh: "基于 LangGraph 的多智能体流水线，面向美赛和研赛：读题、建模、写代码、出图、成文并编译 PDF，关键节点人工审核；有网页界面和命令行。"
+        en: "A LangGraph multi-agent pipeline for MCM/ICM and graduate contests that analyzes, models, codes, plots and compiles a PDF paper, with human review at key checkpoints; web UI and CLI."
+        mode: collab
+        tags: [mcm, gmcm]
+      - repo: sghwr/AutoMM
+        zh: "基于 DeepSeek Harness 的全自动研究流程，按小问推进理解、文献、假设、公式、计算和校验，附实时仪表盘；当前版本不写论文。"
+        en: "A fully automatic research harness built on DeepSeek Harness that works question by question through reading, literature, assumptions, formulas, computation and checks, with a live dashboard; it does not write the paper yet."
+        mode: auto
+        skills: 12
+      - repo: zxuexingzhijie/MathAgent
+        zh: "基于 Spring AI Alibaba Graph 和 Vue 的建模研究系统，多智能体加代码解释器，自动构建、求解模型并输出报告。"
+        en: "A modeling research system on Spring AI Alibaba Graph and Vue, with multiple agents and a code interpreter that build and solve models and write a report."
+        mode: auto
+
+  - id: skills
+    zh: "全流程 Skill（Claude Code / Codex 等）"
+    en: "Full-workflow skills (Claude Code, Codex and others)"
+    zh_intro: "装进编程 Agent 的技能包，从读题一直覆盖到论文和提交检查。多数是标准 SKILL.md 格式，Claude Code、Codex、Trae、WorkBuddy 等支持 skill 的工具都能装。"
+    en_intro: "Skill packs for coding agents that cover the whole contest, from reading the problem to the paper and submission checks. Most use the standard SKILL.md format."
+    items:
+      - repo: XiaoMaColtAI/math-modeling-skill
+        zh: "建模分析 → 代码实现 → 论文撰写三阶段，可以只跑其中一段；Python 和 MATLAB 双语言，附优化、预测、评价、图论等算法资源库，产出 Word 论文。"
+        en: "Three stages, analysis, code and paper, that can also run one at a time; Python and MATLAB, an algorithm library for optimization, forecasting, evaluation and graphs, and a Word paper at the end."
+        tags: [cumcm, mcm]
+        skills: 14
+      - repo: zhnnky329/MathModeling-skills
+        zh: "新版从“自动驾驶”改为“助手”：两道硬门由你决定，三个审计角色把关能否提交；支持 Python 与 MATLAB / 北太天元，旧的全自动版保留在 legacy 分支。"
+        en: "Now an assistant rather than an autopilot: you decide two hard gates and three auditors decide whether the paper is ready; Python and MATLAB/Baltamatica branches, with the old full-auto version kept on a legacy branch."
+        mode: collab
+        skills: 28
+      - repo: yushui2022/MathModel-Skill
+        zh: "分 Lite / Flash / Standard / Pro 四档，Agent 真正运行代码、整理图表和证据后再写论文并检查，支持原生 Word 公式和 PDF 渲染检查；适配 Trae、Claude Code、Codex。"
+        en: "Four tiers, Lite to Pro, where the agent actually runs code and gathers figures and evidence before writing and checking the paper, with native Word equations and PDF render checks; for Trae, Claude Code and Codex."
+        skills: 12
+      - repo: Lupynow/math-modeling-skills
+        zh: "解题和写论文两个 skill，规则提炼自 150 多篇国赛一等、美赛 O/F 奖论文，含 95+ 场景的模型决策矩阵、8 本算法手册和 22 个 Python 模板。"
+        en: "A solver skill and a paper skill whose rules come from 150+ CUMCM first-prize and MCM/ICM O/F papers, with a 95-scenario model decision matrix, eight algorithm cookbooks and 22 Python templates."
+        tags: [cumcm, mcm]
+        skills: 2
+      - repo: sweetcornna/mathodology
+        zh: "9 个技能、8 个角色加一个桌面工作台：记录实验、核对论文里的数字和图表、核验引用，附 46 类图表模板和敏感性、蒙特卡罗等 18 个实验组件。"
+        en: "Nine skills, eight roles and a desktop workbench that logs runs, checks the paper's numbers and figures and verifies citations, plus 46 chart templates and 18 experiment components such as sensitivity and Monte Carlo."
+        tags: [mcm, cumcm, other]
+        skills: 9
+      - repo: handsomeZR-netizen/mathmodel-skill
+        zh: "把比赛拆成 10 个阶段和一份共享决策日志，团队只回答编号问题，随时说“看进度”；提交前检查匿名、页数和 AI 披露。"
+        en: "Splits the contest into ten stages with a shared decision log; the team answers numbered questions and can ask for progress at any time, and anonymity, page limits and AI disclosure are checked before submission."
+        mode: collab
+        tags: [cumcm, mcm, other]
+        skills: 2
+      - repo: RealSeaberry/AutoMCM-Pro
+        zh: "让 Claude Code 当“自动驾驶”、人当副驾驶的实验：读题、文献、推导、自证代码到 LaTeX 论文自动推进，人在关键节点审阅；也支持 Codex、opencode、DeepSeek Harness。"
+        en: "An experiment where Claude Code is the autopilot and you are the copilot, driving from problem reading and literature to self-checked code and a LaTeX paper while you review at key points; also runs on Codex, opencode and DeepSeek Harness."
+        mode: auto
+        skills: 7
+      - repo: xuec699-sudo/math-modeling-skills
+        zh: "全自动和人工把关两种模式，六维选题评估、模型依赖图、五人评审团和学术诚信检查，论文里每个数字都能追溯到脚本输出。"
+        en: "Autopilot and manual modes, six-factor problem choice, a model dependency graph, a five-reviewer panel and an integrity gate, with every number in the paper traceable to script output."
+        mode: auto
+        tags: [cumcm, mcm, other]
+        note_zh: "可切换为人工检查点模式"
+        note_en: "Can switch to a manual-checkpoint mode"
+      - repo: Lucasuiii/modeling-workbench
+        zh: "七阶段工作流：候选模型先试算再定，论文数值关联代码和数据，代码改了能发现旧证据失效；三个关键节点由你审阅，交付中英文 LaTeX/PDF。"
+        en: "A seven-stage workflow that trial-runs candidate models before choosing, links every number to code and data and flags stale evidence after code changes; you review three checkpoints, and it delivers Chinese and English LaTeX/PDF."
+        mode: collab
+        skills: 3
+      - repo: WuXinbo-bo/Math-model-skills
+        zh: "Meta-model-agent：数据审计、建模、真实计算、验证、可视化、论文到提交验收的可恢复工作流，强调结果可复现、证据一致。"
+        en: "Meta-model-agent, a resumable workflow from data audit and modeling to real computation, validation, figures, paper and submission checks, built around reproducible results and consistent evidence."
+        tags: [cumcm, mcm, other]
+        skills: 9
+      - repo: rootkiller6788/mathmodel-skill
+        zh: "国赛、美赛、电工杯统一工作流：10 个阶段、共享决策日志、确定性脚本和独立检查，Codex 和 Claude Code 可以在同一个目录里接力。"
+        en: "One workflow for CUMCM, MCM/ICM and the Electrician's Cup: ten stages, a shared decision log, deterministic scripts and independent gates, so Codex and Claude Code can take turns in one workspace."
+        mode: collab
+        tags: [cumcm, mcm, other]
+        skills: 8
+      - repo: anticipate218/math-modeling-skill
+        zh: "定位是“懂规则、懂评阅的教练”而不是自动写论文：审题选题、选模型、做检验、按规范写，提交前逐项检查会直接出局的红线。"
+        en: "Pitched as a coach that knows the rules and the judging, not a paper generator: problem choice, model choice, validation and writing to spec, with a pre-submission check of disqualifying mistakes."
+        mode: collab
+        tags: [cumcm, gmcm, mcm]
+      - repo: capwitf/My-MathModeling-skills
+        zh: "14 个按需触发的 skill，需要题面、建模、代码、图表、审查或排版时再介入，整理好证据和风险后把判断交还给人。"
+        en: "Fourteen on-demand skills for the problem text, modeling, code, figures, review or layout that step in only when needed and hand the judgment back to you."
+        mode: collab
+        tags: [cumcm]
+        skills: 14
+      - repo: LEEHAHAHAHA/math-modeling-skill
+        zh: "七阶段从读题到交付，机理模型优先，每问给 2–3 个不同方案，机器学习只做稳健性检验；附国赛 LaTeX 模板，可用于 Claude Code、Codex、WorkBuddy。"
+        en: "Seven stages from reading to delivery that favor mechanistic models, offer two or three distinct options per question and use machine learning only as a robustness check; ships a CUMCM LaTeX template."
+        tags: [cumcm, mcm]
+        skills: 2
+      - repo: zhu-hailin/cumcm-modeling-analyst
+        zh: "在国赛里实际用过的协作 skill，逐问确认，把题目、模型和证据整理成队友看得懂的论文和交付物。"
+        en: "A collaboration skill used in a real CUMCM that confirms each question with you and turns the problem, models and evidence into a paper and files teammates can follow."
+        mode: collab
+        tags: [cumcm]
+      - repo: woodfishhhh/EZ_math_model
+        zh: "固定七阶段：题目解析、建模、Python 求解、论文、质量审查和打包，一次运行输出 Markdown / Word / PDF 论文和代码包。"
+        en: "A fixed seven-stage run, from parsing and modeling to Python solving, paper, review and packaging, that outputs the paper as Markdown, Word and PDF plus the code."
+        mode: auto
+        tags: [cumcm, mcm, gmcm]
+        skills: 29
+      - repo: chengyike20110519-create/MathModelRun
+        zh: "证据驱动的十阶段执行系统：复现实验、冻结结果、渲染论文、独立审计，适用国赛、美赛和 HiMCM。"
+        en: "An evidence-driven ten-stage system with reproducible experiments, frozen results, rendered papers and an independent audit, for CUMCM, MCM/ICM and HiMCM."
+        tags: [cumcm, mcm, other]
+        skills: 3
+      - repo: yan315598-design/mathmodel-studio
+        zh: "数模工坊：审题、建模、求解、验证和论文整理，可以从整道题开始，也可以只处理手上已有的代码或草稿；支持 Codex、Claude Code、ZCode。"
+        en: "Mathmodel Studio covers reading, modeling, solving, validation and paper tidy-up, either from a full problem or just the code or draft you already have; for Codex, Claude Code and ZCode."
+        skills: 4
+      - repo: Odyphus/MathModel-Copilot
+        zh: "面向国赛、美赛的建模助手和 skill：审题、模型比较、运行 Python、结果核验、论文辅助和团队协作。"
+        en: "A modeling assistant and skill for CUMCM and MCM/ICM: problem reading, model comparison, running Python, result checks, paper help and teamwork."
+        tags: [cumcm, mcm]
+        skills: 3
+      - repo: xzwwwwww/Enhanced-mathmodel-Codex-skills
+        zh: "Codex 全局 skill 套件，从题面推进到模型路线、实验模板、论文分块、Word 文档和最终质量报告。"
+        en: "A global Codex skill suite that goes from the problem to a model plan, experiment templates, paper sections, a Word file and a final QA report."
+        mode: auto
+        skills: 9
+      - repo: usst-yk/cumcm-math-modeling-codex-skill
+        zh: "国赛 Codex skill：拆题、查数据、建模、求解、出图、验证，最后写进 LaTeX 论文；在 Codex 里一句话就能安装。"
+        en: "A CUMCM skill for Codex that decomposes the problem, checks data, models, solves, plots, validates and writes into a LaTeX paper; installs from a one-line Codex request."
+        tags: [cumcm]
+      - repo: mantou6666/Math-Modeling-Agent-Flow
+        zh: "Solver → Paper → Finalizer → Growth 四个 skill，覆盖建模、论文、提交前检查和赛后复盘。"
+        en: "Four skills, Solver, Paper, Finalizer and Growth, covering modeling, writing, pre-submission checks and a post-contest review."
+        tags: [cumcm, mcm]
+      - repo: Andiii208/dsh-ultramath
+        zh: "DeepSeek Harness 插件：带工具编排的多 Agent 预设，一个预设跑通读题到审稿，附 33 篇模型库和论文模板。"
+        en: "A DeepSeek Harness plugin with a multi-agent preset that runs from reading to review, plus a 33-model library and paper templates."
+        mode: auto
+      - repo: jsChen-biostat/math-modelCN
+        zh: "六步工作流、26 个 skill：赛题分析、建模、编码、科研绘图、论文和查重验收，附绘图模板画廊和算法资料库。"
+        en: "A six-step workflow with 26 skills for analysis, modeling, coding, scientific plots, writing and final checks, plus a plot gallery and algorithm notes."
+        tags: [cumcm]
+        skills: 26
+
+  - id: focused
+    zh: "专项 Skill：选题、选模型、单题型、摘要"
+    en: "Focused skills: problem choice, model choice, one problem type, abstracts"
+    zh_intro: "只管一个环节的小工具，可以和上面的全流程 skill 搭配使用。"
+    en_intro: "Small tools for one step that pair well with the full-workflow skills above."
+    items:
+      - repo: XiucuiGuan/shumo-expert
+        zh: "引导式学习：布鲁姆分层提问、苏格拉底追问、四阶段建模引导，只讲方法，不代求解、不代写代码，适合赛前训练和教学。"
+        en: "A tutor that uses layered and Socratic questioning and a four-phase modeling guide; it teaches method only and will not solve or write code for you, which suits training and teaching."
+        mode: guide
+        tags: [gmcm]
+      - repo: y3519712124-ui/math-modeling-contest-route-selection
+        zh: "选题和路线选择：逐题比较建模路线、可行性、验证方式和推翻条件，避免一上来就套 TOPSIS、熵权法、LSTM 的同质化方案。"
+        en: "Problem and route choice that compares each problem's modeling route, feasibility, validation and what would overturn it, instead of reaching for TOPSIS, entropy weights or LSTM by default."
+        tags: [cumcm, mcm]
+      - repo: bydtesla1609/cumcm-taste
+        zh: "选模型之前先做事实审查：哪些现实因素会改变结果、哪些能省略、有没有阈值或滞后效应，先出“方法准入报告”再选模型。"
+        en: "A reality check before choosing a model: which real factors change the result, which can be dropped and whether thresholds or lags matter, written up before any model is allowed."
+        tags: [cumcm]
+      - repo: liufanshan11/cumcm-b-problem-lfs
+        zh: "只做国赛 B 题：机理、几何、统计优先，内置摘要、总括方程组、图表设计和 25–29 页的论文节奏。"
+        en: "CUMCM Problem B only: mechanism, geometry and statistics first, with built-in guidance for the abstract, the summary equations, figures and a 25–29 page paper."
+        tags: [cumcm]
+      - repo: liufanshan11/cumcm-c-problem-lfs
+        zh: "只做国赛 C 题：依据 2018–2025 年 C 题优秀论文和评阅规范，统计、预测、评价和优化方法优先，沿用 cumcmthesis 模板。"
+        en: "CUMCM Problem C only, based on 2018–2025 outstanding C papers and judging notes; favors statistics, forecasting, evaluation and optimization and uses the cumcmthesis template."
+        tags: [cumcm]
+      - repo: jjh666888/cumcm-abstract-writing-skill
+        zh: "国赛摘要专用：写、改、评摘要，起草后再以评委视角复核事实和质量。"
+        en: "For CUMCM abstracts only: writes, revises or critiques an abstract, then re-checks facts and quality from a judge's point of view."
+        tags: [cumcm]
+      - repo: Mr-potato-123/cumcm-paper-hand-skill
+        zh: "论文手：在已整理好建模和求解材料的参赛文件夹里写论文，内置获奖论文参考库和 LaTeX 模板。"
+        en: "A paper-writer skill that works in a contest folder where models and results are already organized, with a library of winning papers and a LaTeX template."
+        tags: [cumcm, mcm]
+      - repo: haoxilin/cumcm-live-workflow-skill
+        zh: "经过真实国赛检验的实战手册：读题自查、出图、LaTeX、交叉审阅、填结果模板，含 2026 版 AI 使用规定和 26 条终审自查表。"
+        en: "A field manual tested in a real CUMCM: reading checks, figures, LaTeX, cross review and result templates, with the 2026 AI-use rules and a 26-item final checklist."
+        tags: [cumcm]
+      - repo: siyunhao2025-beep/math-modeling-to-sci-skill
+        zh: "赛后把建模报告或竞赛论文改造成可投稿的 SCI 论文：重新界定研究问题，补基线和稳健性，核对引用和期刊匹配。"
+        en: "After the contest, turns a modeling report or contest paper into a journal submission by reframing the research question, adding baselines and robustness and checking citations and journal fit."
+      - repo: DDXYY189/zhengdabei-survey-report-skill
+        zh: "正大杯市场调查与分析大赛报告 skill：调查设计、统计方法、结论建议和提交前审查，含 AI 使用说明。"
+        en: "For the Zhengda Cup market research contest: survey design, statistical methods, recommendations and a pre-submission audit, including the AI-use statement."
+        tags: [other]
+      - repo: yugwl/-MCM-ICM-CUMCM-100-AI-Prompts-
+        zh: "100 条数学建模提示词，按比赛流程分成 8 个阶段，任何聊天机器人都能用。"
+        en: "100 prompts for modeling contests in eight stages of the contest, usable in any chatbot."
+        prompt: true
+        tags: [mcm, cumcm]
+
+  - id: gmcm
+    zh: "研究生赛（华为杯）专用"
+    en: "For the graduate contest (Huawei Cup)"
+    zh_intro: "中国研究生数学建模竞赛的专用 skill，多数蒸馏了历年获奖论文。"
+    en_intro: "Skills built for the China Graduate Mathematical Contest in Modeling, mostly distilled from past winning papers."
+    items:
+      - repo: siyunhao2025-beep/Huaweibei-cool
+        zh: "以 2004–2024 年 729 篇华为杯获奖论文为底座：8 大题型原型、51 张方法卡、2022–2025 年 24 道题的赛道档案，LaTeX 和 Word 双链路。"
+        en: "Built on 729 Huawei Cup winning papers from 2004–2024: eight problem archetypes, 51 method cards, files on 24 problems from 2022–2025, and both LaTeX and Word output."
+        tags: [gmcm]
+        skills: 2
+      - repo: xieyouxixi/hwb-math-modeling-skills
+        zh: "围绕华为杯训练场景的读题、方案设计、模型适配、章节检查和全文评审 skill；作者说明适合赛前训练、自查和复盘。"
+        en: "Skills for Huawei Cup practice covering reading, approach design, model fit, section checks and full reviews; the author positions it for training, self-review and post-contest review."
+        tags: [gmcm]
+        note_zh: "赛中能否使用以当届规则为准"
+        note_en: "Check the current year's rules before using it during the contest"
+      - repo: weibu123/Auto-Modeling-Skill
+        zh: "拆题、数据审计、建模、代码、验证到 LaTeX 交付的可复现工作流，内置 338 篇优秀论文索引和 67 篇深度蒸馏的知识库。"
+        en: "A reproducible workflow from decomposition and data audit to models, code, validation and LaTeX, with an index of 338 outstanding papers and a knowledge base distilled from 67 of them."
+        tags: [gmcm]
+
+  - id: review
+    zh: "论文评审、自查与 AI 使用说明"
+    en: "Paper review, self-checks and AI-use statements"
+    zh_intro: "交卷前用来查漏补缺。评分和获奖预测都是非官方参考。"
+    en_intro: "Use these before you submit. Scores and award predictions are unofficial."
+    items:
+      - repo: BZDmathclub/bzd-math-modeling-skills
+        zh: "依据 2020–2025 年国赛评分细则和评阅流程：逐句读题、建模思路、分章节自查、格式检查、评委式评审、位次预估和高校国奖数据查询。"
+        en: "Built on CUMCM 2020–2025 scoring rules and judging: sentence-by-sentence reading, modeling ideas, section self-checks, format checks, judge-style review, rank estimates and a lookup of national awards by university."
+        tags: [cumcm]
+      - repo: yuanchen-home/cumcm-step-review
+        zh: "国赛逐步审核版：问题重述、逐问建模、检验、摘要等每一部分先给方案，经你审核才写代码和正文，最后生成 AI 工具使用报告。"
+        en: "Step-by-step CUMCM review: each part, from restatement and per-question models to tests and the abstract, is proposed first and written only after you approve, ending with the AI-use report."
+        mode: collab
+        tags: [cumcm]
+        skills: 8
+      - repo: landawang-star/mathematical-modeling-review
+        zh: "把赛题和论文交给它，得到逐问诊断、五维评分、修改优先级和非官方的奖项区间预测。"
+        en: "Give it the problem and your paper to get a per-question diagnosis, five-part scores, what to fix first and an unofficial award range."
+        tags: [cumcm]
+        note_zh: "作者限定个人非商业使用"
+        note_en: "Personal, non-commercial use only"
+      - repo: EmpyreanHYR/CUMCM-AI-Usage-Report
+        zh: "国赛“AI 工具使用详情”LaTeX 模板：工具与版本、提问、回答、采纳和修改情况分框排版，附 Markdown 转 LaTeX 小工具。"
+        en: "A LaTeX template for the CUMCM AI-use report, with boxes for tool and version, prompt, answer and what was kept or changed, plus a Markdown-to-LaTeX helper."
+        tags: [cumcm]
+
+  - id: templates
+    zh: "论文模板（LaTeX / Typst）"
+    en: "Paper templates (LaTeX and Typst)"
+    zh_intro: "格式以当届官方通知为准，用之前先核对页数、封面和匿名要求。"
+    en_intro: "The current year's official notice always wins; check page limits, cover pages and anonymity before you use one."
+    items:
+      - repo: latexstudio/CUMCMThesis
+        zh: "国赛 LaTeX 论文模板，已适配 2026 年格式。"
+        en: "The CUMCM LaTeX template, updated for the 2026 format."
+        tags: [cumcm]
+      - repo: latexstudio/GMCMthesis
+        zh: "研究生数学建模竞赛（华为杯）LaTeX 模板（2024 版）。"
+        en: "LaTeX template for the graduate contest (Huawei Cup), 2024 edition."
+        tags: [gmcm]
+      - repo: QTH1225/LaTeX-in-ICM-MCM
+        zh: "基于 EasyMCM 的美赛 LaTeX 模板，支持多种排版样式。"
+        en: "An MCM/ICM LaTeX template based on EasyMCM with several layout styles."
+        tags: [mcm]
+      - repo: latexstudio-org/mcmthesis
+        zh: "美赛 LaTeX 模板 mcmthesis。"
+        en: "mcmthesis, a LaTeX template for MCM/ICM."
+        tags: [mcm]
+      - repo: yifengchen07/cumcm-latex-template
+        zh: "针对 2026 年国赛的 LaTeX 模板。"
+        en: "A LaTeX template for CUMCM 2026."
+        tags: [cumcm]
+      - repo: 1SPECOO/Huawei_Cup_2026_Mathematical_Modeling_latex
+        zh: "2026 年华为杯 LaTeX 模板，与官网 Word 要求一致。"
+        en: "Huawei Cup 2026 LaTeX template matching the official Word requirements."
+        tags: [gmcm]
+      - repo: jayxin/cumcm
+        zh: "国赛 LaTeX 模板。"
+        en: "Another LaTeX template for CUMCM."
+        tags: [cumcm]
+      - repo: a-kkiri/CUMCM-typst-template
+        zh: "国赛 Typst 模板。"
+        en: "A Typst template for CUMCM."
+        tags: [cumcm]
+      - repo: jirouvan/GMCM2026-LaTeX
+        zh: "2026 年华为杯 LaTeX 模板，带完整字体和版式配置。"
+        en: "Huawei Cup 2026 LaTeX template with full font and layout setup."
+        tags: [gmcm]
+
+  - id: learning
+    static: true
+    zh: "教程与资料合集"
+    en: "Tutorials and study collections"
+    zh_intro: "入门和系统学习用。"
+    en_intro: "For getting started and studying properly."
+    items:
+      - repo: zhanwen/MathModel
+        zh: "星标最多的数模资料库：优秀论文、算法、LaTeX 模板、算法思维导图、参考书和 MATLAB 教程，本科和研究生赛都有。"
+        en: "The most-starred collection: winning papers, algorithms, LaTeX templates, mind maps, books and MATLAB tutorials for undergraduate and graduate contests."
+        tags: [cumcm, mcm, gmcm]
+      - repo: personqianduixue/Math_Model
+        zh: "国赛、美赛、华为杯、MathorCup、电工杯等十多个比赛的资料和 LaTeX 模板。"
+        en: "Materials and LaTeX templates for a dozen contests, including CUMCM, MCM/ICM, the Huawei Cup, MathorCup and the Electrician's Cup."
+        tags: [cumcm, mcm, gmcm, other]
+      - repo: datawhalechina/intro-mathmodel
+        zh: "Datawhale《数学建模导论》，覆盖常用模型与算法的系统教程。"
+        en: "Datawhale's Introduction to Mathematical Modeling, a structured course on common models and algorithms."
+      - repo: QInzhengk/Math-Model-and-Machine-Learning
+        zh: "数学建模和机器学习、深度学习、大模型的笔记和资料，持续更新。"
+        en: "Notes on modeling, machine learning, deep learning and LLMs, still updated."
+      - repo: GuangLun2000/COMAP-MCM-2026
+        zh: "一支美赛队开源的全套材料：论文、MATLAB/Python 代码、作图 PPT 模板、写作与协作笔记和 Word 模板。"
+        en: "One MCM team's full kit: their paper, MATLAB/Python code, figure templates, notes on writing and teamwork, and a Word template."
+        tags: [mcm]
+      - repo: HBdingdang/math-model
+        zh: "美赛、国赛、研赛论文和各类模型方法整理，适合入门和进阶。"
+        en: "Papers from MCM/ICM, CUMCM and the graduate contest plus notes on model types, for beginners and beyond."
+        tags: [cumcm, mcm, gmcm]
+      - repo: zichuan-liu/WHUT_CUMCM20
+        zh: "武汉理工大学参赛资料：国赛、美赛、数维杯、亚太赛的论文和校内集训材料。"
+        en: "Wuhan University of Technology's contest materials: papers from CUMCM, MCM/ICM and other contests plus training notes."
+        tags: [cumcm, mcm, other]
+      - repo: zsy0x/math_model
+        zh: "各大比赛历年优秀论文和题目，附 19 个数模比赛的时间表和学习笔记。"
+        en: "Outstanding papers and problems from major contests, a calendar of 19 modeling contests and study notes."
+        tags: [cumcm, mcm, other]
+      - repo: CQULeaf/MCM-ICM_Study_Resources
+        zh: "美赛备赛和比赛中用到的全部资料：论文模板、数据处理、绘图技巧和常见模型。"
+        en: "Everything one team used for MCM/ICM: paper templates, data handling, plotting tips and common models."
+        tags: [mcm]
+
+  - id: algorithms
+    static: true
+    zh: "算法与代码库"
+    en: "Algorithms and code"
+    zh_intro: "常用模型的现成实现，拿来改比从零写快。"
+    en_intro: "Ready implementations of common models; adapting them beats writing from scratch."
+    items:
+      - repo: HuangCongQing/Algorithms_MathModels
+        zh: "国赛、美赛常用算法的 MATLAB 实现。"
+        en: "MATLAB implementations of algorithms common in CUMCM and MCM/ICM."
+        tags: [cumcm, mcm]
+      - repo: Lanrzip/Mathematical-Modeling
+        zh: "数学建模常见模型的 Python 实现。"
+        en: "Python implementations of common modeling methods."
+      - repo: hacheyz/PMMAA
+        zh: "《Python 数学建模算法与应用》的笔记和代码，按章节整理。"
+        en: "Notes and code for the Python edition of the classic Chinese textbook on modeling algorithms, by chapter."
+      - repo: RabbitWhite1/Mathematical-Modeling-In-Python
+        zh: "用 Python 重写《数学建模算法与应用》第二版的部分示例（原书用 MATLAB）。"
+        en: "Python versions of examples from the second edition of the same textbook, which uses MATLAB."
+      - repo: leost123456/Mathematical-modeling-model
+        zh: "数学建模常用算法大全。"
+        en: "A broad collection of algorithms used in modeling contests."
+      - repo: ShituoMa/mathematical_modeling_python
+        zh: "数学建模导论的 Python 版本。"
+        en: "An introduction to mathematical modeling in Python."
+      - repo: Koorye/mathmodeling
+        zh: "回归、分类、差分、聚类、时间序列、因子分析等方法的 Python 代码。"
+        en: "Python code for regression, classification, difference equations, clustering, time series and factor analysis."
+      - repo: STL-CC/Mathematical-modeling-algorithm-and-Application
+        zh: "司守奎《数学建模算法与应用》案例的 Python 实现。"
+        en: "Python implementations of the cases in Si Shoukui's modeling textbook."
+      - repo: FelixYuan-YF/MCM-ICM
+        zh: "美赛常用模型的 Python 实现，附历年 Outstanding 论文。"
+        en: "Python implementations of common MCM/ICM models, with past Outstanding papers."
+        tags: [mcm]
+
+  - id: papers
+    static: true
+    zh: "真题与获奖论文"
+    en: "Past problems and winning papers"
+    zh_intro: "看获奖论文是最快的学习方法之一。引用时注明出处，不要照抄。"
+    en_intro: "Reading winning papers is one of the fastest ways to learn. Cite them; do not copy."
+    items:
+      - repo: dick20/MCM-ICM
+        zh: "2004–2020 年美赛 O 奖论文合集。"
+        en: "MCM/ICM Outstanding papers from 2004 to 2020."
+        tags: [mcm]
+      - repo: zhenhua-chen1/Postgraduate-Mathematical-Contest-in-Modelling2
+        zh: "华为杯历年数据分析类题目的代码，作者曾获一等奖。"
+        en: "Code for past Huawei Cup data-analysis problems by a first-prize winner."
+        tags: [gmcm]
+      - repo: Nahuyiur/2025-MCM-ICM-Problem-C
+        zh: "2025 年美赛 C 题 Outstanding 队伍的代码和论文。"
+        en: "Code and paper from an Outstanding team on 2025 MCM Problem C."
+        tags: [mcm]
+      - repo: LUKEQ420/MCM-ICM-2025-E-Nitrogen-Cycling-Model
+        zh: "2025 年美赛 E 题 Finalist：基于 Lotka-Volterra 的氮循环模型。"
+        en: "2025 ICM Problem E Finalist: a Lotka-Volterra model of the nitrogen cycle."
+        tags: [mcm]
+      - repo: JiahaoLiu2005/Mathematical_Contest_in_Modeling
+        zh: "国赛和美赛大数据方向赛题的代码、论文模板和比赛经验。"
+        en: "Code, templates and lessons for data-heavy CUMCM and MCM/ICM problems."
+        tags: [cumcm, mcm]
+      - repo: CosmicLinks/cumcm-problems
+        zh: "1992–2025 年国赛真题汇总。"
+        en: "CUMCM problems from 1992 to 2025."
+        tags: [cumcm]
+      - repo: liujiyaoFDU/2021-ICM-D-Outstanding
+        zh: "2021 年美赛 D 题 O 奖论文和代码。"
+        en: "Outstanding paper and code for 2021 ICM Problem D."
+        tags: [mcm]
+      - repo: ydchen0806/24ICM_E_O_Award_Paper_code
+        zh: "2024 年美赛 E 题 O 奖（INFORMS 冠名奖）论文和代码。"
+        en: "Paper and code for an Outstanding (INFORMS Prize) team on 2024 ICM Problem E."
+        tags: [mcm]
+      - repo: seanys/CUMCM2020-Desert-Game
+        zh: "2020 年国赛 B 题“沙漠游戏”全国一等奖论文、源码和 LaTeX。"
+        en: "National first-prize paper, code and LaTeX for CUMCM 2020 Problem B."
+        tags: [cumcm]
+      - repo: yan-fanyu/CUMCM-Paper-And-SourceCode
+        zh: "2010–2024 年国赛论文和源代码。"
+        en: "CUMCM papers and source code from 2010 to 2024."
+        tags: [cumcm]
+      - repo: linggm3/2023_CUMCM_National-First-Prize
+        zh: "2023 年国赛 A 题定日镜场优化，全国一等奖代码、论文和答辩 PPT。"
+        en: "National first prize on CUMCM 2023 Problem A (heliostat field design): code, paper and defense slides."
+        tags: [cumcm]
+      - repo: cny123222/CUMCM-2024A-Bench-Dragon
+        zh: "2024 年国赛 A 题“板凳龙”，全国一等奖。"
+        en: "National first prize on CUMCM 2024 Problem A."
+        tags: [cumcm]
+      - repo: qssxbhxy/2019GMCM
+        zh: "2019 年华为杯 F 题第一名论文和代码。"
+        en: "Top paper and code for 2019 Huawei Cup Problem F."
+        tags: [gmcm]
+      - repo: alectimison-maker/2026MCM-ICM_C
+        zh: "2026 年美赛 C 题 Finalist 的代码和论文，附三天备赛攻略。"
+        en: "Code and paper from a 2026 MCM Problem C Finalist, with a three-day prep guide."
+        tags: [mcm]
+
+  - id: solvers
+    zh: "求解器与常用库"
+    en: "Solvers and libraries"
+    zh_intro: "比赛里最常用的开源库，按用途分：优化、智能算法、预测、评价、仿真、绘图。"
+    en_intro: "Open-source libraries contest teams use most: optimization, heuristics, forecasting, evaluation, simulation and plotting."
+    items:
+      - repo: google/or-tools
+        zh: "Google 运筹工具箱：线性和整数规划、约束规划、车辆路径、排班。"
+        en: "Google's OR toolkit for linear and integer programming, constraint programming, routing and scheduling."
+      - repo: cvxpy/cvxpy
+        zh: "用 Python 写凸优化问题的建模语言。"
+        en: "A Python modeling language for convex optimization."
+      - repo: Pyomo/pyomo
+        zh: "面向对象的代数建模语言，可接各种求解器。"
+        en: "An algebraic modeling language that works with many solvers."
+      - repo: coin-or/pulp
+        zh: "简单易用的 Python 线性规划库。"
+        en: "A simple Python library for linear programming."
+      - repo: ERGO-Code/HiGHS
+        zh: "高性能开源线性 / 混合整数规划求解器。"
+        en: "A fast open-source LP and MIP solver."
+      - repo: scipopt/PySCIPOpt
+        zh: "SCIP 求解器的 Python 接口。"
+        en: "Python interface to the SCIP solver."
+      - repo: guofei9987/scikit-opt
+        zh: "遗传、粒子群、模拟退火、蚁群等智能算法，几行代码就能调用。"
+        en: "Genetic algorithms, particle swarm, simulated annealing, ant colony and more in a few lines of code."
+      - repo: DEAP/deap
+        zh: "灵活的进化算法框架。"
+        en: "A flexible evolutionary computation framework."
+      - repo: the-dual-space/pymoo
+        zh: "多目标优化库：NSGA-II、NSGA-III、MOEA/D 等。"
+        en: "Multi-objective optimization with NSGA-II, NSGA-III, MOEA/D and more."
+      - repo: geatpy-dev/geatpy
+        zh: "高性能进化算法工具箱和框架。"
+        en: "A high-performance evolutionary algorithm toolbox and framework."
+      - repo: statsmodels/statsmodels
+        zh: "回归、时间序列（ARIMA 等）、假设检验。"
+        en: "Regression, time series such as ARIMA, and hypothesis tests."
+      - repo: meta/prophet
+        zh: "带季节和节假日效应的时间序列预测。"
+        en: "Time-series forecasting with seasonality and holiday effects."
+      - repo: Nixtla/statsforecast
+        zh: "快速的统计预测模型合集。"
+        en: "Fast statistical forecasting models."
+      - repo: sktime/sktime
+        zh: "统一接口的时间序列机器学习框架。"
+        en: "A unified framework for machine learning on time series."
+      - repo: Valdecy/pyDecision
+        zh: "多准则决策：AHP、TOPSIS、熵权法、VIKOR 等评价类方法。"
+        en: "Multi-criteria decision methods such as AHP, TOPSIS, entropy weights and VIKOR."
+      - repo: SALib/SALib
+        zh: "敏感性分析：Sobol、Morris、FAST 等，论文里的“模型检验”常用。"
+        en: "Sensitivity analysis with Sobol, Morris, FAST and more, often used in the model-testing section."
+      - repo: networkx/networkx
+        zh: "图与网络分析，最短路、最大流、中心性。"
+        en: "Graphs and networks: shortest paths, max flow, centrality."
+      - repo: mesa/mesa
+        zh: "基于智能体（agent-based）的仿真建模。"
+        en: "Agent-based modeling and simulation."
+      - repo: SDXorg/pysd
+        zh: "Python 系统动力学建模，可读 Vensim 模型。"
+        en: "System dynamics in Python, including Vensim models."
+      - repo: sympy/sympy
+        zh: "符号计算：推公式、解微分方程。"
+        en: "Symbolic math for derivations and differential equations."
+      - repo: garrettj403/SciencePlots
+        zh: "Matplotlib 的论文风格配色和样式。"
+        en: "Matplotlib styles for publication-quality figures."
+      - repo: jump-dev/JuMP.jl
+        zh: "Julia 的数学优化建模语言。"
+        en: "Mathematical optimization modeling in Julia."
+
+  - id: research
+    zh: "研究：大模型做数学建模和运筹优化"
+    en: "Research: LLMs for modeling and optimization"
+    zh_intro: "论文配套代码和评测基准，想了解 AI 建模能力边界的可以看。"
+    en_intro: "Paper code and benchmarks for anyone curious how far LLMs can go."
+    items:
+      - repo: teshnizi/OptiMUS
+        zh: "OptiMUS：大模型加 MIP 求解器自动完成优化建模。"
+        en: "OptiMUS: LLMs plus MIP solvers that formulate and solve optimization problems."
+      - repo: Cardinal-Operations/ORLM
+        zh: "ORLM：训练专门做优化建模的大模型。"
+        en: "ORLM: training LLMs for optimization modeling."
+      - repo: NineAbyss/OR-License
+        zh: "评测大模型 Agent 能否在没有专家预先改写问题的情况下完成运筹优化工作。"
+        en: "Tests whether LLM agents can do an OR practitioner's job without an expert reformulating the problem first."
+      - repo: bwz96sco/or_llm_agent
+        zh: "OR-LLM-Agent：自动完成运筹优化问题的建模和求解。"
+        en: "OR-LLM-Agent automates modeling and solving of OR problems."
+      - repo: li-group/OptiChat
+        zh: "用大模型解释优化模型的结果。"
+        en: "Explains optimization models with LLMs."
+      - repo: Cardinal-Operations/SIRL
+        zh: "用可验证奖励强化学习提升大模型的优化建模能力。"
+        en: "Reinforcement learning with verifiable rewards for LLM optimization modeling."
+      - repo: nl4opt/ORQA
+        zh: "ORQA（AAAI 2025）：评测大模型运筹推理能力的问答基准。"
+        en: "ORQA (AAAI 2025), a QA benchmark for LLM reasoning in operations research."
+      - repo: FreedomIntelligence/Mamo
+        zh: "Mamo：带求解器验证的数学建模评测基准。"
+        en: "Mamo, a mathematical modeling benchmark checked with solvers."
+
+related:
+  - repo: DataArcTech/Awesome-LLMs-for-Mathematical-Modeling
+    zh: "大模型做数学建模的论文合集。"
+    en: "Papers on LLMs for mathematical modeling."
+  - repo: kael-odin/awesome-academic-research-skills
+    zh: "学术论文与科研 Agent Skill 每日排行榜。"
+    en: "A daily ranking of academic research skills for coding agents."
+  - repo: modelscope/Awesome-Vibe-Research
+    zh: "AI 辅助科研资源合集。"
+    en: "Resources for AI-assisted research."

@@ -1,0 +1,45 @@
+name: 推荐项目 / Recommend a project
+description: 推荐一个数学建模相关的开源项目 / Suggest an open-source project for mathematical modeling contests
+title: "[推荐] "
+labels: ["recommendation"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub 仓库 / Repository
+      placeholder: owner/name
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类 / Category
+      options:
+        - 全流程 Agent 应用 / End-to-end agent app
+        - 全流程 Skill / Full-workflow skill
+        - 专项 Skill / Focused skill
+        - 华为杯专用 / Huawei Cup
+        - 评审与自查 / Review and self-checks
+        - 论文模板 / Paper template
+        - 教程与资料 / Tutorials
+        - 算法与代码 / Algorithms and code
+        - 真题与获奖论文 / Problems and winning papers
+        - 求解器与常用库 / Solvers and libraries
+        - 研究 / Research
+        - 其他 / Other
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 推荐理由 / Why
+      description: 它在建模的哪个环节有用？你实际用过吗？ / Which part of a contest does it help with? Have you used it?
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 确认 / Checks
+      options:
+        - label: 不是以降 AI 率、躲避 AIGC 检测为卖点的工具 / It is not mainly pitched at beating AI detection
+          required: true

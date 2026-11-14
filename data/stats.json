@@ -1,0 +1,986 @@
+{
+ "123-qw-as/Beacon": {
+  "archived": false,
+  "created": "2026-07-06",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-08-07",
+  "stars": 174
+ },
+ "1SPECOO/Huawei_Cup_2026_Mathematical_Modeling_latex": {
+  "archived": false,
+  "created": "2026-09-19",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-09-22",
+  "stars": 71
+ },
+ "Andiii208/dsh-ultramath": {
+  "archived": false,
+  "created": "2026-08-17",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-08-24",
+  "stars": 41
+ },
+ "BZDmathclub/bzd-math-modeling-skills": {
+  "archived": false,
+  "created": "2026-08-13",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-09-18",
+  "stars": 434
+ },
+ "CQULeaf/MCM-ICM_Study_Resources": {
+  "archived": false,
+  "created": "2023-10-24",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2025-03-12",
+  "stars": 57
+ },
+ "Cardinal-Operations/ORLM": {
+  "archived": false,
+  "created": "2024-05-29",
+  "fetched": "2026-11-14",
+  "license": "Apache-2.0",
+  "pushed": "2025-09-18",
+  "stars": 283
+ },
+ "Cardinal-Operations/SIRL": {
+  "archived": false,
+  "created": "2025-05-14",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-04-15",
+  "stars": 69
+ },
+ "CosmicLinks/cumcm-problems": {
+  "archived": false,
+  "created": "2026-06-29",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-06-29",
+  "stars": 97
+ },
+ "DDXYY189/zhengdabei-survey-report-skill": {
+  "archived": false,
+  "created": "2026-09-17",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-09-25",
+  "stars": 26
+ },
+ "DEAP/deap": {
+  "archived": false,
+  "created": "2014-05-21",
+  "fetched": "2026-11-14",
+  "license": "LGPL-3.0",
+  "pushed": "2026-04-17",
+  "stars": 6462
+ },
+ "DataArcTech/Awesome-LLMs-for-Mathematical-Modeling": {
+  "archived": false,
+  "created": "2026-01-08",
+  "fetched": "2026-11-14",
+  "license": "Apache-2.0",
+  "pushed": "2026-11-06",
+  "stars": 18
+ },
+ "ERGO-Code/HiGHS": {
+  "archived": false,
+  "created": "2018-03-27",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-11-13",
+  "stars": 1925
+ },
+ "EmpyreanHYR/CUMCM-AI-Usage-Report": {
+  "archived": false,
+  "created": "2025-08-27",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2025-09-01",
+  "stars": 35
+ },
+ "FelixYuan-YF/MCM-ICM": {
+  "archived": false,
+  "created": "2025-01-20",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2025-02-21",
+  "stars": 34
+ },
+ "FreedomIntelligence/Mamo": {
+  "archived": false,
+  "created": "2024-05-21",
+  "fetched": "2026-11-14",
+  "license": "CC-BY-SA-4.0",
+  "pushed": "2024-06-12",
+  "stars": 16
+ },
+ "GuangLun2000/COMAP-MCM-2026": {
+  "archived": false,
+  "created": "2023-03-07",
+  "fetched": "2026-11-14",
+  "license": "BSD-2-Clause",
+  "pushed": "2026-01-31",
+  "stars": 394
+ },
+ "HBdingdang/math-model": {
+  "archived": false,
+  "created": "2023-08-31",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2023-09-10",
+  "stars": 275
+ },
+ "HuangCongQing/Algorithms_MathModels": {
+  "archived": false,
+  "created": "2017-12-23",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2022-12-25",
+  "stars": 2450
+ },
+ "JiahaoLiu2005/Mathematical_Contest_in_Modeling": {
+  "archived": false,
+  "created": "2026-07-31",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-09-08",
+  "stars": 102
+ },
+ "Koorye/mathmodeling": {
+  "archived": false,
+  "created": "2021-11-17",
+  "fetched": "2026-11-14",
+  "license": "GPL-2.0",
+  "pushed": "2024-04-07",
+  "stars": 92
+ },
+ "LEEHAHAHAHA/math-modeling-skill": {
+  "archived": false,
+  "created": "2026-09-02",
+  "fetched": "2026-11-14",
+  "license": "NOASSERTION",
+  "pushed": "2026-09-02",
+  "stars": 25
+ },
+ "LUKEQ420/MCM-ICM-2025-E-Nitrogen-Cycling-Model": {
+  "archived": false,
+  "created": "2025-08-16",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-01-17",
+  "stars": 109
+ },
+ "Lanrzip/Mathematical-Modeling": {
+  "archived": false,
+  "created": "2020-07-29",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2020-07-29",
+  "stars": 561
+ },
+ "Lucasuiii/modeling-workbench": {
+  "archived": false,
+  "created": "2026-08-29",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-09-23",
+  "stars": 177
+ },
+ "Lupynow/math-modeling-skills": {
+  "archived": false,
+  "created": "2026-05-23",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-07-31",
+  "stars": 438
+ },
+ "Mr-potato-123/cumcm-paper-hand-skill": {
+  "archived": false,
+  "created": "2026-08-15",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-08-18",
+  "stars": 214
+ },
+ "Nahuyiur/2025-MCM-ICM-Problem-C": {
+  "archived": false,
+  "created": "2025-07-23",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-09-26",
+  "stars": 148
+ },
+ "NineAbyss/OR-License": {
+  "archived": false,
+  "created": "2026-10-15",
+  "fetched": "2026-11-14",
+  "license": "Apache-2.0",
+  "pushed": "2026-11-07",
+  "stars": 200
+ },
+ "Nixtla/statsforecast": {
+  "archived": false,
+  "created": "2021-11-24",
+  "fetched": "2026-11-14",
+  "license": "Apache-2.0",
+  "pushed": "2026-11-13",
+  "stars": 4978
+ },
+ "Odyphus/MathModel-Copilot": {
+  "archived": false,
+  "created": "2026-10-07",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-10-10",
+  "stars": 67
+ },
+ "Pyomo/pyomo": {
+  "archived": false,
+  "created": "2016-05-27",
+  "fetched": "2026-11-14",
+  "license": "NOASSERTION",
+  "pushed": "2026-11-13",
+  "stars": 2565
+ },
+ "QInzhengk/Math-Model-and-Machine-Learning": {
+  "archived": false,
+  "created": "2022-04-24",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-11-05",
+  "stars": 661
+ },
+ "QTH1225/LaTeX-in-ICM-MCM": {
+  "archived": false,
+  "created": "2023-12-15",
+  "fetched": "2026-11-14",
+  "license": "LPPL-1.3c",
+  "pushed": "2026-10-28",
+  "stars": 289
+ },
+ "RabbitWhite1/Mathematical-Modeling-In-Python": {
+  "archived": false,
+  "created": "2020-01-28",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2020-09-12",
+  "stars": 223
+ },
+ "RealSeaberry/AutoMCM-Pro": {
+  "archived": false,
+  "created": "2026-03-14",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-09-10",
+  "stars": 262
+ },
+ "SALib/SALib": {
+  "archived": false,
+  "created": "2013-05-30",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-11-11",
+  "stars": 1026
+ },
+ "SDXorg/pysd": {
+  "archived": false,
+  "created": "2013-12-16",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-10-05",
+  "stars": 467
+ },
+ "STL-CC/Mathematical-modeling-algorithm-and-Application": {
+  "archived": false,
+  "created": "2020-07-23",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-02-05",
+  "stars": 49
+ },
+ "ShituoMa/mathematical_modeling_python": {
+  "archived": false,
+  "created": "2022-06-06",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2024-05-21",
+  "stars": 174
+ },
+ "Valdecy/pyDecision": {
+  "archived": false,
+  "created": "2020-08-10",
+  "fetched": "2026-11-14",
+  "license": "NOASSERTION",
+  "pushed": "2026-10-15",
+  "stars": 374
+ },
+ "WuXinbo-bo/Math-model-skills": {
+  "archived": false,
+  "created": "2026-06-23",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-09-21",
+  "stars": 112
+ },
+ "XiaoMaColtAI/math-modeling-skill": {
+  "archived": false,
+  "created": "2026-01-24",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-11-13",
+  "stars": 1929
+ },
+ "XiucuiGuan/shumo-expert": {
+  "archived": false,
+  "created": "2026-09-02",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-09-02",
+  "stars": 26
+ },
+ "a-kkiri/CUMCM-typst-template": {
+  "archived": false,
+  "created": "2024-03-05",
+  "fetched": "2026-11-14",
+  "license": "Apache-2.0",
+  "pushed": "2025-07-31",
+  "stars": 34
+ },
+ "alectimison-maker/2026MCM-ICM_C": {
+  "archived": false,
+  "created": "2026-01-28",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-05-12",
+  "stars": 25
+ },
+ "anticipate218/math-modeling-skill": {
+  "archived": false,
+  "created": "2026-09-11",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-10-10",
+  "stars": 59
+ },
+ "bwz96sco/or_llm_agent": {
+  "archived": false,
+  "created": "2025-03-08",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-09-30",
+  "stars": 108
+ },
+ "bydtesla1609/cumcm-taste": {
+  "archived": false,
+  "created": "2026-08-19",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-08-19",
+  "stars": 35
+ },
+ "capwitf/My-MathModeling-skills": {
+  "archived": false,
+  "created": "2026-06-11",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-07-19",
+  "stars": 59
+ },
+ "chengyike20110519-create/MathModelRun": {
+  "archived": false,
+  "created": "2026-09-11",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-10-27",
+  "stars": 114
+ },
+ "cny123222/CUMCM-2024A-Bench-Dragon": {
+  "archived": false,
+  "created": "2025-06-23",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2025-06-27",
+  "stars": 62
+ },
+ "coin-or/pulp": {
+  "archived": false,
+  "created": "2015-03-15",
+  "fetched": "2026-11-14",
+  "license": "NOASSERTION",
+  "pushed": "2026-11-13",
+  "stars": 2498
+ },
+ "cvxpy/cvxpy": {
+  "archived": false,
+  "created": "2013-07-01",
+  "fetched": "2026-11-14",
+  "license": "Apache-2.0",
+  "pushed": "2026-11-12",
+  "stars": 6394
+ },
+ "datawhalechina/intro-mathmodel": {
+  "archived": false,
+  "created": "2024-04-21",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-01-16",
+  "stars": 961
+ },
+ "dick20/MCM-ICM": {
+  "archived": false,
+  "created": "2019-01-23",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2025-07-23",
+  "stars": 2325
+ },
+ "garrettj403/SciencePlots": {
+  "archived": false,
+  "created": "2018-08-13",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-06-23",
+  "stars": 9401
+ },
+ "geatpy-dev/geatpy": {
+  "archived": false,
+  "created": "2018-08-23",
+  "fetched": "2026-11-14",
+  "license": "LGPL-3.0",
+  "pushed": "2026-02-05",
+  "stars": 2121
+ },
+ "google/or-tools": {
+  "archived": false,
+  "created": "2015-02-21",
+  "fetched": "2026-11-14",
+  "license": "Apache-2.0",
+  "pushed": "2026-11-13",
+  "stars": 14375
+ },
+ "guofei9987/scikit-opt": {
+  "archived": false,
+  "created": "2017-12-05",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-03-25",
+  "stars": 6727
+ },
+ "hacheyz/PMMAA": {
+  "archived": false,
+  "created": "2022-08-03",
+  "fetched": "2026-11-14",
+  "license": "GPL-3.0",
+  "pushed": "2024-08-27",
+  "stars": 428
+ },
+ "handsomeZR-netizen/mathmodel-skill": {
+  "archived": false,
+  "created": "2026-05-05",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-09-26",
+  "stars": 302
+ },
+ "haoxilin/cumcm-live-workflow-skill": {
+  "archived": false,
+  "created": "2026-08-23",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-09-07",
+  "stars": 185
+ },
+ "jayxin/cumcm": {
+  "archived": false,
+  "created": "2026-08-04",
+  "fetched": "2026-11-14",
+  "license": "LPPL-1.3c",
+  "pushed": "2026-08-29",
+  "stars": 37
+ },
+ "jihe520/MathModelAgent": {
+  "archived": false,
+  "created": "2025-01-30",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-11-02",
+  "stars": 6325
+ },
+ "jirouvan/GMCM2026-LaTeX": {
+  "archived": false,
+  "created": "2026-09-20",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-09-20",
+  "stars": 33
+ },
+ "jjh666888/cumcm-abstract-writing-skill": {
+  "archived": false,
+  "created": "2026-08-10",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-08-12",
+  "stars": 28
+ },
+ "jsChen-biostat/math-modelCN": {
+  "archived": false,
+  "created": "2026-09-12",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-09-12",
+  "stars": 64
+ },
+ "jump-dev/JuMP.jl": {
+  "archived": false,
+  "created": "2012-10-10",
+  "fetched": "2026-11-14",
+  "license": "NOASSERTION",
+  "pushed": "2026-11-13",
+  "stars": 2491
+ },
+ "kael-odin/awesome-academic-research-skills": {
+  "archived": false,
+  "created": "2026-06-30",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-11-13",
+  "stars": 210
+ },
+ "landawang-star/mathematical-modeling-review": {
+  "archived": false,
+  "created": "2026-07-16",
+  "fetched": "2026-11-14",
+  "license": "NOASSERTION",
+  "pushed": "2026-11-08",
+  "stars": 104
+ },
+ "latexstudio-org/mcmthesis": {
+  "archived": false,
+  "created": "2020-01-22",
+  "fetched": "2026-11-14",
+  "license": "NOASSERTION",
+  "pushed": "2024-01-25",
+  "stars": 193
+ },
+ "latexstudio/CUMCMThesis": {
+  "archived": false,
+  "created": "2015-08-14",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-08-26",
+  "stars": 1442
+ },
+ "latexstudio/GMCMthesis": {
+  "archived": false,
+  "created": "2017-09-12",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2024-09-17",
+  "stars": 331
+ },
+ "leost123456/Mathematical-modeling-model": {
+  "archived": false,
+  "created": "2021-12-04",
+  "fetched": "2026-11-14",
+  "license": "GPL-3.0",
+  "pushed": "2024-07-30",
+  "stars": 201
+ },
+ "li-group/OptiChat": {
+  "archived": false,
+  "created": "2023-08-06",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-09-26",
+  "stars": 73
+ },
+ "linggm3/2023_CUMCM_National-First-Prize": {
+  "archived": false,
+  "created": "2024-03-01",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2025-08-02",
+  "stars": 64
+ },
+ "liufanshan11/cumcm-b-problem-lfs": {
+  "archived": false,
+  "created": "2026-08-18",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-08-18",
+  "stars": 117
+ },
+ "liufanshan11/cumcm-c-problem-lfs": {
+  "archived": false,
+  "created": "2026-08-24",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-08-24",
+  "stars": 146
+ },
+ "liujiyaoFDU/2021-ICM-D-Outstanding": {
+  "archived": false,
+  "created": "2022-01-01",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2022-02-17",
+  "stars": 97
+ },
+ "mantou6666/Math-Modeling-Agent-Flow": {
+  "archived": false,
+  "created": "2026-08-19",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-08-20",
+  "stars": 28
+ },
+ "mesa/mesa": {
+  "archived": false,
+  "created": "2014-09-19",
+  "fetched": "2026-11-14",
+  "license": "Apache-2.0",
+  "pushed": "2026-11-12",
+  "stars": 3956
+ },
+ "meta/prophet": {
+  "archived": false,
+  "created": "2016-11-16",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-11-11",
+  "stars": 20487
+ },
+ "modelscope/Awesome-Vibe-Research": {
+  "archived": false,
+  "created": "2026-06-12",
+  "fetched": "2026-11-14",
+  "license": "Apache-2.0",
+  "pushed": "2026-11-11",
+  "stars": 475
+ },
+ "networkx/networkx": {
+  "archived": false,
+  "created": "2010-09-06",
+  "fetched": "2026-11-14",
+  "license": "NOASSERTION",
+  "pushed": "2026-11-12",
+  "stars": 17392
+ },
+ "nl4opt/ORQA": {
+  "archived": false,
+  "created": "2024-12-21",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2025-06-07",
+  "stars": 51
+ },
+ "personqianduixue/Math_Model": {
+  "archived": false,
+  "created": "2021-10-09",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2023-12-01",
+  "stars": 5341
+ },
+ "qssxbhxy/2019GMCM": {
+  "archived": false,
+  "created": "2019-12-02",
+  "fetched": "2026-11-14",
+  "license": "MPL-2.0",
+  "pushed": "2019-12-02",
+  "stars": 62
+ },
+ "rootkiller6788/mathmodel-skill": {
+  "archived": false,
+  "created": "2026-09-01",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-10-27",
+  "stars": 72
+ },
+ "scipopt/PySCIPOpt": {
+  "archived": false,
+  "created": "2016-05-19",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-11-13",
+  "stars": 1004
+ },
+ "seanys/CUMCM2020-Desert-Game": {
+  "archived": false,
+  "created": "2020-11-22",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2020-12-05",
+  "stars": 76
+ },
+ "sghwr/AutoMM": {
+  "archived": false,
+  "created": "2026-07-28",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-08-26",
+  "stars": 218
+ },
+ "siyunhao2025-beep/Huaweibei-cool": {
+  "archived": false,
+  "created": "2026-09-20",
+  "fetched": "2026-11-14",
+  "license": "NOASSERTION",
+  "pushed": "2026-09-25",
+  "stars": 86
+ },
+ "siyunhao2025-beep/math-modeling-to-sci-skill": {
+  "archived": false,
+  "created": "2026-08-19",
+  "fetched": "2026-11-14",
+  "license": "NOASSERTION",
+  "pushed": "2026-10-22",
+  "stars": 40
+ },
+ "sktime/sktime": {
+  "archived": false,
+  "created": "2018-11-06",
+  "fetched": "2026-11-14",
+  "license": "BSD-3-Clause",
+  "pushed": "2026-11-14",
+  "stars": 10097
+ },
+ "statsmodels/statsmodels": {
+  "archived": false,
+  "created": "2011-06-12",
+  "fetched": "2026-11-14",
+  "license": "BSD-3-Clause",
+  "pushed": "2026-11-11",
+  "stars": 11748
+ },
+ "sweetcornna/mathodology": {
+  "archived": false,
+  "created": "2026-04-20",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-11-05",
+  "stars": 327
+ },
+ "sympy/sympy": {
+  "archived": false,
+  "created": "2010-04-30",
+  "fetched": "2026-11-14",
+  "license": "NOASSERTION",
+  "pushed": "2026-11-13",
+  "stars": 15085
+ },
+ "teshnizi/OptiMUS": {
+  "archived": false,
+  "created": "2023-10-05",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2025-11-04",
+  "stars": 308
+ },
+ "the-dual-space/pymoo": {
+  "archived": false,
+  "created": "2017-09-19",
+  "fetched": "2026-11-14",
+  "license": "Apache-2.0",
+  "pushed": "2026-11-12",
+  "stars": 2996
+ },
+ "usail-hkust/LLM-MM-Agent": {
+  "archived": false,
+  "created": "2025-05-20",
+  "fetched": "2026-11-14",
+  "license": "GPL-3.0",
+  "pushed": "2026-09-28",
+  "stars": 698
+ },
+ "usst-yk/cumcm-math-modeling-codex-skill": {
+  "archived": false,
+  "created": "2026-05-09",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-05-16",
+  "stars": 38
+ },
+ "weibu123/Auto-Modeling-Skill": {
+  "archived": false,
+  "created": "2026-09-15",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-09-18",
+  "stars": 53
+ },
+ "woodfishhhh/EZ_math_model": {
+  "archived": false,
+  "created": "2026-05-19",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-07-28",
+  "stars": 42
+ },
+ "xieyouxixi/hwb-math-modeling-skills": {
+  "archived": false,
+  "created": "2026-09-16",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-10-20",
+  "stars": 192
+ },
+ "xuec699-sudo/math-modeling-skills": {
+  "archived": false,
+  "created": "2026-06-05",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-06-07",
+  "stars": 246
+ },
+ "xzwwwwww/Enhanced-mathmodel-Codex-skills": {
+  "archived": false,
+  "created": "2026-05-06",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-05-06",
+  "stars": 113
+ },
+ "y3519712124-ui/math-modeling-contest-route-selection": {
+  "archived": false,
+  "created": "2026-06-19",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-06-19",
+  "stars": 92
+ },
+ "yan-fanyu/CUMCM-Paper-And-SourceCode": {
+  "archived": false,
+  "created": "2024-07-20",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2025-06-28",
+  "stars": 71
+ },
+ "yan315598-design/mathmodel-studio": {
+  "archived": false,
+  "created": "2026-09-04",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-09-22",
+  "stars": 47
+ },
+ "ydchen0806/24ICM_E_O_Award_Paper_code": {
+  "archived": false,
+  "created": "2024-05-03",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2024-07-23",
+  "stars": 89
+ },
+ "yifengchen07/cumcm-latex-template": {
+  "archived": false,
+  "created": "2026-04-15",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-08-31",
+  "stars": 115
+ },
+ "yjz211/HaJiMi-Math-Model-Agent": {
+  "archived": false,
+  "created": "2026-09-06",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-09-10",
+  "stars": 59
+ },
+ "yuanchen-home/cumcm-step-review": {
+  "archived": false,
+  "created": "2026-08-15",
+  "fetched": "2026-11-14",
+  "license": "NOASSERTION",
+  "pushed": "2026-09-04",
+  "stars": 316
+ },
+ "yugwl/-MCM-ICM-CUMCM-100-AI-Prompts-": {
+  "archived": false,
+  "created": "2026-01-17",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2025-11-29",
+  "stars": 41
+ },
+ "yushui2022/MathModel-Skill": {
+  "archived": false,
+  "created": "2026-01-29",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-10-24",
+  "stars": 459
+ },
+ "zhanwen/MathModel": {
+  "archived": false,
+  "created": "2018-07-15",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2025-09-20",
+  "stars": 12447
+ },
+ "zhenhua-chen1/Postgraduate-Mathematical-Contest-in-Modelling2": {
+  "archived": false,
+  "created": "2022-05-17",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-09-22",
+  "stars": 229
+ },
+ "zhnnky329/MathModeling-skills": {
+  "archived": false,
+  "created": "2026-04-26",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-11-12",
+  "stars": 1094
+ },
+ "zhou2030109-glitch/Remit": {
+  "archived": false,
+  "created": "2026-08-18",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2026-11-09",
+  "stars": 88
+ },
+ "zhu-hailin/cumcm-modeling-analyst": {
+  "archived": false,
+  "created": "2026-08-07",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-09-30",
+  "stars": 27
+ },
+ "zichuan-liu/WHUT_CUMCM20": {
+  "archived": false,
+  "created": "2020-06-16",
+  "fetched": "2026-11-14",
+  "license": "MIT",
+  "pushed": "2022-05-02",
+  "stars": 172
+ },
+ "zsy0x/math_model": {
+  "archived": false,
+  "created": "2024-09-02",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2026-08-09",
+  "stars": 90
+ },
+ "zxuexingzhijie/MathAgent": {
+  "archived": false,
+  "created": "2025-09-27",
+  "fetched": "2026-11-14",
+  "license": null,
+  "pushed": "2025-11-21",
+  "stars": 42
+ }
+}
