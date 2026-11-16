@@ -12,9 +12,9 @@ AI is changing modeling contests. In the last six months alone, more than 1,600 
 
 This list sorts the projects that work and are still maintained by what they do, and puts the contest rules first so you know the limits before you start.
 
-120 projects · data refreshed 2026-11-14
+120 projects · data refreshed 2026-11-16
 
-**MCM/ICM 2027 runs January 28 – February 1, 2027 (EST): 75 days to go.** Check dates on the [COMAP contest site](https://www.contest.comap.com/undergraduate/contests/mcm/).
+**MCM/ICM 2027 runs January 28 – February 1, 2027 (EST): 73 days to go.** Check dates on the [COMAP contest site](https://www.contest.comap.com/undergraduate/contests/mcm/).
 
 ## Contents
 
@@ -78,7 +78,7 @@ Desktop or web apps that chain problem analysis, modeling, coding, figures and p
 
 - **[MathModelAgent](https://github.com/jihe520/MathModelAgent)** · ★ 6.3k · 🚀<br>A modeling agent that analyzes the problem, builds models, writes and fixes code and drafts the paper; the desktop build bundles Claude Code and its skills, so you only add an API key.<br><sub>updated 2026-11 · 11 skills</sub>
 - **[LLM-MM-Agent](https://github.com/usail-hkust/LLM-MM-Agent)** · ★ 698 · 🚀<br>MM-Agent from HKUST (NeurIPS 2025), an agent pipeline for real-world modeling problems; a newer release adds a Mathematical Modeling Expert skill pack for Codex, Claude Code and Cursor.<br><sub>updated 2026-09 · MCM/ICM · GPL-3.0</sub>
-- **[AutoMM](https://github.com/sghwr/AutoMM)** · ★ 218 · 🚀<br>A fully automatic research harness built on DeepSeek Harness that works question by question through reading, literature, assumptions, formulas, computation and checks, with a live dashboard; it does not write the paper yet.<br><sub>updated 2026-08 · 12 skills</sub>
+- **[AutoMM](https://github.com/sghwr/AutoMM)** · ★ 219 · 🚀<br>A fully automatic research harness built on DeepSeek Harness that works question by question through reading, literature, assumptions, formulas, computation and checks, with a live dashboard; it does not write the paper yet.<br><sub>updated 2026-08 · 12 skills</sub>
 - **[Beacon](https://github.com/123-qw-as/Beacon)** · ★ 174 · 🤝<br>A LangGraph multi-agent pipeline for MCM/ICM and graduate contests that analyzes, models, codes, plots and compiles a PDF paper, with human review at key checkpoints; web UI and CLI.<br><sub>updated 2026-08 · MCM/ICM · Huawei Cup</sub>
 - **[Remit](https://github.com/zhou2030109-glitch/Remit)** · ★ 88 · 🤝<br>Remit, a local workspace where coordinator, modeler, coder and writer agents work like a team while you sign off on the problem reading, the approach and the result; runs can resume from checkpoints.<br><sub>updated 2026-11 · MIT</sub>
 - **[HaJiMi-Math-Model-Agent](https://github.com/yjz211/HaJiMi-Math-Model-Agent)** · ★ 59 · 🤝<br>A local desktop agent with a stateful 0–9 stage workflow, from freezing the problem and data to per-question models, figures and a LaTeX paper, then a code appendix, AI-use statement and submission zip after your review.<br><sub>updated 2026-09 · MIT</sub>
@@ -92,23 +92,23 @@ Skill packs for coding agents that cover the whole contest, from reading the pro
 - **[XiaoMaColtAI/math-modeling-skill](https://github.com/XiaoMaColtAI/math-modeling-skill)** · ★ 1.9k<br>Three stages, analysis, code and paper, that can also run one at a time; Python and MATLAB, an algorithm library for optimization, forecasting, evaluation and graphs, and a Word paper at the end.<br><sub>updated 2026-11 · CUMCM · MCM/ICM · 14 skills</sub>
 - **[MathModeling-skills](https://github.com/zhnnky329/MathModeling-skills)** · ★ 1.1k · 🤝<br>Now an assistant rather than an autopilot: you decide two hard gates and three auditors decide whether the paper is ready; Python and MATLAB/Baltamatica branches, with the old full-auto version kept on a legacy branch.<br><sub>updated 2026-11 · 28 skills · MIT</sub>
 - **[yushui2022/MathModel-Skill](https://github.com/yushui2022/MathModel-Skill)** · ★ 459<br>Four tiers, Lite to Pro, where the agent actually runs code and gathers figures and evidence before writing and checking the paper, with native Word equations and PDF render checks; for Trae, Claude Code and Codex.<br><sub>updated 2026-10 · 12 skills · MIT</sub>
-- **[Lupynow/math-modeling-skills](https://github.com/Lupynow/math-modeling-skills)** · ★ 438<br>A solver skill and a paper skill whose rules come from 150+ CUMCM first-prize and MCM/ICM O/F papers, with a 95-scenario model decision matrix, eight algorithm cookbooks and 22 Python templates.<br><sub>updated 2026-07 · CUMCM · MCM/ICM · 2 skills · MIT</sub>
-- **[mathodology](https://github.com/sweetcornna/mathodology)** · ★ 327<br>Nine skills, eight roles and a desktop workbench that logs runs, checks the paper's numbers and figures and verifies citations, plus 46 chart templates and 18 experiment components such as sensitivity and Monte Carlo.<br><sub>updated 2026-11 · MCM/ICM · CUMCM · Other contests · 9 skills · MIT</sub>
-- **[handsomeZR-netizen/mathmodel-skill](https://github.com/handsomeZR-netizen/mathmodel-skill)** · ★ 302 · 🤝<br>Splits the contest into ten stages with a shared decision log; the team answers numbered questions and can ask for progress at any time, and anonymity, page limits and AI disclosure are checked before submission.<br><sub>updated 2026-09 · CUMCM · MCM/ICM · Other contests · 2 skills · MIT</sub>
+- **[Lupynow/math-modeling-skills](https://github.com/Lupynow/math-modeling-skills)** · ★ 440<br>A solver skill and a paper skill whose rules come from 150+ CUMCM first-prize and MCM/ICM O/F papers, with a 95-scenario model decision matrix, eight algorithm cookbooks and 22 Python templates.<br><sub>updated 2026-07 · CUMCM · MCM/ICM · 2 skills · MIT</sub>
+- **[mathodology](https://github.com/sweetcornna/mathodology)** · ★ 329<br>Nine skills, eight roles and a desktop workbench that logs runs, checks the paper's numbers and figures and verifies citations, plus 46 chart templates and 18 experiment components such as sensitivity and Monte Carlo.<br><sub>updated 2026-11 · MCM/ICM · CUMCM · Other contests · 9 skills · MIT</sub>
+- **[handsomeZR-netizen/mathmodel-skill](https://github.com/handsomeZR-netizen/mathmodel-skill)** · ★ 305 · 🤝<br>Splits the contest into ten stages with a shared decision log; the team answers numbered questions and can ask for progress at any time, and anonymity, page limits and AI disclosure are checked before submission.<br><sub>updated 2026-09 · CUMCM · MCM/ICM · Other contests · 2 skills · MIT</sub>
 - **[AutoMCM-Pro](https://github.com/RealSeaberry/AutoMCM-Pro)** · ★ 262 · 🚀<br>An experiment where Claude Code is the autopilot and you are the copilot, driving from problem reading and literature to self-checked code and a LaTeX paper while you review at key points; also runs on Codex, opencode and DeepSeek Harness.<br><sub>updated 2026-09 · 7 skills · MIT</sub>
 - **[xuec699-sudo/math-modeling-skills](https://github.com/xuec699-sudo/math-modeling-skills)** · ★ 246 · 🚀<br>Autopilot and manual modes, six-factor problem choice, a model dependency graph, a five-reviewer panel and an integrity gate, with every number in the paper traceable to script output.<br><sub>updated 2026-06 · CUMCM · MCM/ICM · Other contests</sub><br><sub>💡 Can switch to a manual-checkpoint mode</sub>
-- **[modeling-workbench](https://github.com/Lucasuiii/modeling-workbench)** · ★ 177 · 🤝<br>A seven-stage workflow that trial-runs candidate models before choosing, links every number to code and data and flags stale evidence after code changes; you review three checkpoints, and it delivers Chinese and English LaTeX/PDF.<br><sub>updated 2026-09 · 3 skills · MIT</sub>
-- **[MathModelRun](https://github.com/chengyike20110519-create/MathModelRun)** · ★ 114<br>An evidence-driven ten-stage system with reproducible experiments, frozen results, rendered papers and an independent audit, for CUMCM, MCM/ICM and HiMCM.<br><sub>updated 2026-10 · CUMCM · MCM/ICM · Other contests · 3 skills · MIT</sub>
+- **[modeling-workbench](https://github.com/Lucasuiii/modeling-workbench)** · ★ 178 · 🤝<br>A seven-stage workflow that trial-runs candidate models before choosing, links every number to code and data and flags stale evidence after code changes; you review three checkpoints, and it delivers Chinese and English LaTeX/PDF.<br><sub>updated 2026-09 · 3 skills · MIT</sub>
+- **[MathModelRun](https://github.com/chengyike20110519-create/MathModelRun)** · ★ 115<br>An evidence-driven ten-stage system with reproducible experiments, frozen results, rendered papers and an independent audit, for CUMCM, MCM/ICM and HiMCM.<br><sub>updated 2026-10 · CUMCM · MCM/ICM · Other contests · 3 skills · MIT</sub>
 - **[Enhanced-mathmodel-Codex-skills](https://github.com/xzwwwwww/Enhanced-mathmodel-Codex-skills)** · ★ 113 · 🚀<br>A global Codex skill suite that goes from the problem to a model plan, experiment templates, paper sections, a Word file and a final QA report.<br><sub>updated 2026-05 · 9 skills</sub>
 - **[Math-model-skills](https://github.com/WuXinbo-bo/Math-model-skills)** · ★ 112<br>Meta-model-agent, a resumable workflow from data audit and modeling to real computation, validation, figures, paper and submission checks, built around reproducible results and consistent evidence.<br><sub>updated 2026-09 · CUMCM · MCM/ICM · Other contests · 9 skills · MIT</sub>
 - **[rootkiller6788/mathmodel-skill](https://github.com/rootkiller6788/mathmodel-skill)** · ★ 72 · 🤝<br>One workflow for CUMCM, MCM/ICM and the Electrician's Cup: ten stages, a shared decision log, deterministic scripts and independent gates, so Codex and Claude Code can take turns in one workspace.<br><sub>updated 2026-10 · CUMCM · MCM/ICM · Other contests · 8 skills · MIT</sub>
 - **[MathModel-Copilot](https://github.com/Odyphus/MathModel-Copilot)** · ★ 67 · 🆕<br>A modeling assistant and skill for CUMCM and MCM/ICM: problem reading, model comparison, running Python, result checks, paper help and teamwork.<br><sub>updated 2026-10 · CUMCM · MCM/ICM · 3 skills · MIT</sub>
-- **[math-modelCN](https://github.com/jsChen-biostat/math-modelCN)** · ★ 64<br>A six-step workflow with 26 skills for analysis, modeling, coding, scientific plots, writing and final checks, plus a plot gallery and algorithm notes.<br><sub>updated 2026-09 · CUMCM · 26 skills · MIT</sub>
+- **[math-modelCN](https://github.com/jsChen-biostat/math-modelCN)** · ★ 63<br>A six-step workflow with 26 skills for analysis, modeling, coding, scientific plots, writing and final checks, plus a plot gallery and algorithm notes.<br><sub>updated 2026-09 · CUMCM · 26 skills · MIT</sub>
 - **[anticipate218/math-modeling-skill](https://github.com/anticipate218/math-modeling-skill)** · ★ 59 · 🤝<br>Pitched as a coach that knows the rules and the judging, not a paper generator: problem choice, model choice, validation and writing to spec, with a pre-submission check of disqualifying mistakes.<br><sub>updated 2026-10 · CUMCM · Huawei Cup · MCM/ICM · MIT</sub>
 - **[My-MathModeling-skills](https://github.com/capwitf/My-MathModeling-skills)** · ★ 59 · 🤝<br>Fourteen on-demand skills for the problem text, modeling, code, figures, review or layout that step in only when needed and hand the judgment back to you.<br><sub>updated 2026-07 · CUMCM · 14 skills · MIT</sub>
 - **[mathmodel-studio](https://github.com/yan315598-design/mathmodel-studio)** · ★ 47<br>Mathmodel Studio covers reading, modeling, solving, validation and paper tidy-up, either from a full problem or just the code or draft you already have; for Codex, Claude Code and ZCode.<br><sub>updated 2026-09 · 4 skills · MIT</sub>
 - **[EZ_math_model](https://github.com/woodfishhhh/EZ_math_model)** · ★ 42 · 🚀<br>A fixed seven-stage run, from parsing and modeling to Python solving, paper, review and packaging, that outputs the paper as Markdown, Word and PDF plus the code.<br><sub>updated 2026-07 · CUMCM · MCM/ICM · Huawei Cup · 29 skills · MIT</sub>
-- **[dsh-ultramath](https://github.com/Andiii208/dsh-ultramath)** · ★ 41 · 🚀<br>A DeepSeek Harness plugin with a multi-agent preset that runs from reading to review, plus a 33-model library and paper templates.<br><sub>updated 2026-08 · MIT</sub>
+- **[dsh-ultramath](https://github.com/Andiii208/dsh-ultramath)** · ★ 42 · 🚀<br>A DeepSeek Harness plugin with a multi-agent preset that runs from reading to review, plus a 33-model library and paper templates.<br><sub>updated 2026-08 · MIT</sub>
 - **[cumcm-math-modeling-codex-skill](https://github.com/usst-yk/cumcm-math-modeling-codex-skill)** · ★ 38<br>A CUMCM skill for Codex that decomposes the problem, checks data, models, solves, plots, validates and writes into a LaTeX paper; installs from a one-line Codex request.<br><sub>updated 2026-05 · CUMCM</sub>
 - **[Math-Modeling-Agent-Flow](https://github.com/mantou6666/Math-Modeling-Agent-Flow)** · ★ 28<br>Four skills, Solver, Paper, Finalizer and Growth, covering modeling, writing, pre-submission checks and a post-contest review.<br><sub>updated 2026-08 · CUMCM · MCM/ICM · MIT</sub>
 - **[cumcm-modeling-analyst](https://github.com/zhu-hailin/cumcm-modeling-analyst)** · ★ 27 · 🤝<br>A collaboration skill used in a real CUMCM that confirms each question with you and turns the problem, models and evidence into a paper and files teammates can follow.<br><sub>updated 2026-09 · CUMCM</sub>
@@ -125,29 +125,29 @@ Small tools for one step that pair well with the full-workflow skills above.
 - **[cumcm-b-problem-lfs](https://github.com/liufanshan11/cumcm-b-problem-lfs)** · ★ 117<br>CUMCM Problem B only: mechanism, geometry and statistics first, with built-in guidance for the abstract, the summary equations, figures and a 25–29 page paper.<br><sub>updated 2026-08 · CUMCM</sub>
 - **[math-modeling-contest-route-selection](https://github.com/y3519712124-ui/math-modeling-contest-route-selection)** · ★ 92<br>Problem and route choice that compares each problem's modeling route, feasibility, validation and what would overturn it, instead of reaching for TOPSIS, entropy weights or LSTM by default.<br><sub>updated 2026-06 · CUMCM · MCM/ICM · MIT</sub>
 - **[-MCM-ICM-CUMCM-100-AI-Prompts-](https://github.com/yugwl/-MCM-ICM-CUMCM-100-AI-Prompts-)** · ★ 41 · 📝<br>100 prompts for modeling contests in eight stages of the contest, usable in any chatbot.<br><sub>updated 2025-11 · MCM/ICM · CUMCM</sub>
-- **[math-modeling-to-sci-skill](https://github.com/siyunhao2025-beep/math-modeling-to-sci-skill)** · ★ 40<br>After the contest, turns a modeling report or contest paper into a journal submission by reframing the research question, adding baselines and robustness and checking citations and journal fit.<br><sub>updated 2026-10</sub>
+- **[math-modeling-to-sci-skill](https://github.com/siyunhao2025-beep/math-modeling-to-sci-skill)** · ★ 40<br>After the contest, turns a modeling report or contest paper into a journal submission by reframing the research question, adding baselines and robustness and checking citations and journal fit.<br><sub>updated 2026-11</sub>
 - **[cumcm-taste](https://github.com/bydtesla1609/cumcm-taste)** · ★ 35<br>A reality check before choosing a model: which real factors change the result, which can be dropped and whether thresholds or lags matter, written up before any model is allowed.<br><sub>updated 2026-08 · CUMCM</sub>
+- **[zhengdabei-survey-report-skill](https://github.com/DDXYY189/zhengdabei-survey-report-skill)** · ★ 29 · 🆕<br>For the Zhengda Cup market research contest: survey design, statistical methods, recommendations and a pre-submission audit, including the AI-use statement.<br><sub>updated 2026-09 · Other contests · MIT</sub>
 - **[cumcm-abstract-writing-skill](https://github.com/jjh666888/cumcm-abstract-writing-skill)** · ★ 28<br>For CUMCM abstracts only: writes, revises or critiques an abstract, then re-checks facts and quality from a judge's point of view.<br><sub>updated 2026-08 · CUMCM</sub>
 - **[shumo-expert](https://github.com/XiucuiGuan/shumo-expert)** · ★ 26 · 🎓<br>A tutor that uses layered and Socratic questioning and a four-phase modeling guide; it teaches method only and will not solve or write code for you, which suits training and teaching.<br><sub>updated 2026-09 · Huawei Cup · MIT</sub>
-- **[zhengdabei-survey-report-skill](https://github.com/DDXYY189/zhengdabei-survey-report-skill)** · ★ 26 · 🆕<br>For the Zhengda Cup market research contest: survey design, statistical methods, recommendations and a pre-submission audit, including the AI-use statement.<br><sub>updated 2026-09 · Other contests · MIT</sub>
 
 <a id="cat-gmcm"></a>
 ## For the graduate contest (Huawei Cup)
 
 Skills built for the China Graduate Mathematical Contest in Modeling, mostly distilled from past winning papers.
 
-- **[hwb-math-modeling-skills](https://github.com/xieyouxixi/hwb-math-modeling-skills)** · ★ 192 · 🆕<br>Skills for Huawei Cup practice covering reading, approach design, model fit, section checks and full reviews; the author positions it for training, self-review and post-contest review.<br><sub>updated 2026-10 · Huawei Cup</sub><br><sub>💡 Check the current year's rules before using it during the contest</sub>
+- **[hwb-math-modeling-skills](https://github.com/xieyouxixi/hwb-math-modeling-skills)** · ★ 193<br>Skills for Huawei Cup practice covering reading, approach design, model fit, section checks and full reviews; the author positions it for training, self-review and post-contest review.<br><sub>updated 2026-10 · Huawei Cup</sub><br><sub>💡 Check the current year's rules before using it during the contest</sub>
 - **[Huaweibei-cool](https://github.com/siyunhao2025-beep/Huaweibei-cool)** · ★ 86 · 🆕<br>Built on 729 Huawei Cup winning papers from 2004–2024: eight problem archetypes, 51 method cards, files on 24 problems from 2022–2025, and both LaTeX and Word output.<br><sub>updated 2026-09 · Huawei Cup · 2 skills</sub>
-- **[Auto-Modeling-Skill](https://github.com/weibu123/Auto-Modeling-Skill)** · ★ 53 · 🆕<br>A reproducible workflow from decomposition and data audit to models, code, validation and LaTeX, with an index of 338 outstanding papers and a knowledge base distilled from 67 of them.<br><sub>updated 2026-09 · Huawei Cup · MIT</sub>
+- **[Auto-Modeling-Skill](https://github.com/weibu123/Auto-Modeling-Skill)** · ★ 53<br>A reproducible workflow from decomposition and data audit to models, code, validation and LaTeX, with an index of 338 outstanding papers and a knowledge base distilled from 67 of them.<br><sub>updated 2026-09 · Huawei Cup · MIT</sub>
 
 <a id="cat-review"></a>
 ## Paper review, self-checks and AI-use statements
 
 Use these before you submit. Scores and award predictions are unofficial.
 
-- **[bzd-math-modeling-skills](https://github.com/BZDmathclub/bzd-math-modeling-skills)** · ★ 434<br>Built on CUMCM 2020–2025 scoring rules and judging: sentence-by-sentence reading, modeling ideas, section self-checks, format checks, judge-style review, rank estimates and a lookup of national awards by university.<br><sub>updated 2026-09 · CUMCM</sub>
+- **[bzd-math-modeling-skills](https://github.com/BZDmathclub/bzd-math-modeling-skills)** · ★ 435<br>Built on CUMCM 2020–2025 scoring rules and judging: sentence-by-sentence reading, modeling ideas, section self-checks, format checks, judge-style review, rank estimates and a lookup of national awards by university.<br><sub>updated 2026-09 · CUMCM</sub>
 - **[cumcm-step-review](https://github.com/yuanchen-home/cumcm-step-review)** · ★ 316 · 🤝<br>Step-by-step CUMCM review: each part, from restatement and per-question models to tests and the abstract, is proposed first and written only after you approve, ending with the AI-use report.<br><sub>updated 2026-09 · CUMCM · 8 skills</sub>
-- **[mathematical-modeling-review](https://github.com/landawang-star/mathematical-modeling-review)** · ★ 104<br>Give it the problem and your paper to get a per-question diagnosis, five-part scores, what to fix first and an unofficial award range.<br><sub>updated 2026-11 · CUMCM</sub><br><sub>💡 Personal, non-commercial use only</sub>
+- **[mathematical-modeling-review](https://github.com/landawang-star/mathematical-modeling-review)** · ★ 105<br>Give it the problem and your paper to get a per-question diagnosis, five-part scores, what to fix first and an unofficial award range.<br><sub>updated 2026-11 · CUMCM</sub><br><sub>💡 Personal, non-commercial use only</sub>
 - **[CUMCM-AI-Usage-Report](https://github.com/EmpyreanHYR/CUMCM-AI-Usage-Report)** · ★ 35 · 💤<br>A LaTeX template for the CUMCM AI-use report, with boxes for tool and version, prompt, answer and what was kept or changed, plus a Markdown-to-LaTeX helper.<br><sub>updated 2025-09 · CUMCM · MIT</sub>
 
 <a id="cat-templates"></a>
@@ -157,8 +157,8 @@ The current year's official notice always wins; check page limits, cover pages a
 
 - **[CUMCMThesis](https://github.com/latexstudio/CUMCMThesis)** · ★ 1.4k<br>The CUMCM LaTeX template, updated for the 2026 format.<br><sub>updated 2026-08 · CUMCM</sub>
 - **[GMCMthesis](https://github.com/latexstudio/GMCMthesis)** · ★ 331 · 💤<br>LaTeX template for the graduate contest (Huawei Cup), 2024 edition.<br><sub>updated 2024-09 · Huawei Cup</sub>
-- **[LaTeX-in-ICM-MCM](https://github.com/QTH1225/LaTeX-in-ICM-MCM)** · ★ 289<br>An MCM/ICM LaTeX template based on EasyMCM with several layout styles.<br><sub>updated 2026-10 · MCM/ICM · LPPL-1.3c</sub>
-- **[mcmthesis](https://github.com/latexstudio-org/mcmthesis)** · ★ 193 · 💤<br>mcmthesis, a LaTeX template for MCM/ICM.<br><sub>updated 2024-01 · MCM/ICM</sub>
+- **[LaTeX-in-ICM-MCM](https://github.com/QTH1225/LaTeX-in-ICM-MCM)** · ★ 290<br>An MCM/ICM LaTeX template based on EasyMCM with several layout styles.<br><sub>updated 2026-10 · MCM/ICM · LPPL-1.3c</sub>
+- **[mcmthesis](https://github.com/latexstudio-org/mcmthesis)** · ★ 194 · 💤<br>mcmthesis, a LaTeX template for MCM/ICM.<br><sub>updated 2024-01 · MCM/ICM</sub>
 - **[cumcm-latex-template](https://github.com/yifengchen07/cumcm-latex-template)** · ★ 115<br>A LaTeX template for CUMCM 2026.<br><sub>updated 2026-08 · CUMCM · MIT</sub>
 - **[Huawei_Cup_2026_Mathematical_Modeling_latex](https://github.com/1SPECOO/Huawei_Cup_2026_Mathematical_Modeling_latex)** · ★ 71 · 🆕<br>Huawei Cup 2026 LaTeX template matching the official Word requirements.<br><sub>updated 2026-09 · Huawei Cup</sub>
 - **[cumcm](https://github.com/jayxin/cumcm)** · ★ 37<br>Another LaTeX template for CUMCM.<br><sub>updated 2026-08 · CUMCM · LPPL-1.3c</sub>
@@ -170,11 +170,11 @@ The current year's official notice always wins; check page limits, cover pages a
 
 For getting started and studying properly.
 
-- **[MathModel](https://github.com/zhanwen/MathModel)** · ★ 12.4k<br>The most-starred collection: winning papers, algorithms, LaTeX templates, mind maps, books and MATLAB tutorials for undergraduate and graduate contests.<br><sub>updated 2025-09 · CUMCM · MCM/ICM · Huawei Cup</sub>
+- **[MathModel](https://github.com/zhanwen/MathModel)** · ★ 12.5k<br>The most-starred collection: winning papers, algorithms, LaTeX templates, mind maps, books and MATLAB tutorials for undergraduate and graduate contests.<br><sub>updated 2025-09 · CUMCM · MCM/ICM · Huawei Cup</sub>
 - **[personqianduixue/Math_Model](https://github.com/personqianduixue/Math_Model)** · ★ 5.3k<br>Materials and LaTeX templates for a dozen contests, including CUMCM, MCM/ICM, the Huawei Cup, MathorCup and the Electrician's Cup.<br><sub>updated 2023-12 · CUMCM · MCM/ICM · Huawei Cup · Other contests</sub>
 - **[intro-mathmodel](https://github.com/datawhalechina/intro-mathmodel)** · ★ 961<br>Datawhale's Introduction to Mathematical Modeling, a structured course on common models and algorithms.<br><sub>updated 2026-01</sub>
 - **[Math-Model-and-Machine-Learning](https://github.com/QInzhengk/Math-Model-and-Machine-Learning)** · ★ 661<br>Notes on modeling, machine learning, deep learning and LLMs, still updated.<br><sub>updated 2026-11</sub>
-- **[COMAP-MCM-2026](https://github.com/GuangLun2000/COMAP-MCM-2026)** · ★ 394<br>One MCM team's full kit: their paper, MATLAB/Python code, figure templates, notes on writing and teamwork, and a Word template.<br><sub>updated 2026-01 · MCM/ICM · BSD-2-Clause</sub>
+- **[COMAP-MCM-2026](https://github.com/GuangLun2000/COMAP-MCM-2026)** · ★ 395<br>One MCM team's full kit: their paper, MATLAB/Python code, figure templates, notes on writing and teamwork, and a Word template.<br><sub>updated 2026-01 · MCM/ICM · BSD-2-Clause</sub>
 - **[math-model](https://github.com/HBdingdang/math-model)** · ★ 275<br>Papers from MCM/ICM, CUMCM and the graduate contest plus notes on model types, for beginners and beyond.<br><sub>updated 2023-09 · CUMCM · MCM/ICM · Huawei Cup</sub>
 - **[WHUT_CUMCM20](https://github.com/zichuan-liu/WHUT_CUMCM20)** · ★ 172<br>Wuhan University of Technology's contest materials: papers from CUMCM, MCM/ICM and other contests plus training notes.<br><sub>updated 2022-05 · CUMCM · MCM/ICM · Other contests · MIT</sub>
 - **[zsy0x/math_model](https://github.com/zsy0x/math_model)** · ★ 90<br>Outstanding papers and problems from major contests, a calendar of 19 modeling contests and study notes.<br><sub>updated 2026-08 · CUMCM · MCM/ICM · Other contests</sub>
@@ -186,7 +186,7 @@ For getting started and studying properly.
 Ready implementations of common models; adapting them beats writing from scratch.
 
 - **[Algorithms_MathModels](https://github.com/HuangCongQing/Algorithms_MathModels)** · ★ 2.5k<br>MATLAB implementations of algorithms common in CUMCM and MCM/ICM.<br><sub>updated 2022-12 · CUMCM · MCM/ICM · MIT</sub>
-- **[Mathematical-Modeling](https://github.com/Lanrzip/Mathematical-Modeling)** · ★ 561<br>Python implementations of common modeling methods.<br><sub>updated 2020-07</sub>
+- **[Mathematical-Modeling](https://github.com/Lanrzip/Mathematical-Modeling)** · ★ 562<br>Python implementations of common modeling methods.<br><sub>updated 2020-07</sub>
 - **[PMMAA](https://github.com/hacheyz/PMMAA)** · ★ 428<br>Notes and code for the Python edition of the classic Chinese textbook on modeling algorithms, by chapter.<br><sub>updated 2024-08 · GPL-3.0</sub>
 - **[Mathematical-Modeling-In-Python](https://github.com/RabbitWhite1/Mathematical-Modeling-In-Python)** · ★ 223<br>Python versions of examples from the second edition of the same textbook, which uses MATLAB.<br><sub>updated 2020-09 · MIT</sub>
 - **[Mathematical-modeling-model](https://github.com/leost123456/Mathematical-modeling-model)** · ★ 201<br>A broad collection of algorithms used in modeling contests.<br><sub>updated 2024-07 · GPL-3.0</sub>
@@ -204,7 +204,7 @@ Reading winning papers is one of the fastest ways to learn. Cite them; do not co
 - **[Postgraduate-Mathematical-Contest-in-Modelling2](https://github.com/zhenhua-chen1/Postgraduate-Mathematical-Contest-in-Modelling2)** · ★ 229<br>Code for past Huawei Cup data-analysis problems by a first-prize winner.<br><sub>updated 2026-09 · Huawei Cup</sub>
 - **[2025-MCM-ICM-Problem-C](https://github.com/Nahuyiur/2025-MCM-ICM-Problem-C)** · ★ 148<br>Code and paper from an Outstanding team on 2025 MCM Problem C.<br><sub>updated 2026-09 · MCM/ICM · MIT</sub>
 - **[MCM-ICM-2025-E-Nitrogen-Cycling-Model](https://github.com/LUKEQ420/MCM-ICM-2025-E-Nitrogen-Cycling-Model)** · ★ 109<br>2025 ICM Problem E Finalist: a Lotka-Volterra model of the nitrogen cycle.<br><sub>updated 2026-01 · MCM/ICM · MIT</sub>
-- **[Mathematical_Contest_in_Modeling](https://github.com/JiahaoLiu2005/Mathematical_Contest_in_Modeling)** · ★ 102<br>Code, templates and lessons for data-heavy CUMCM and MCM/ICM problems.<br><sub>updated 2026-09 · CUMCM · MCM/ICM</sub>
+- **[Mathematical_Contest_in_Modeling](https://github.com/JiahaoLiu2005/Mathematical_Contest_in_Modeling)** · ★ 104<br>Code, templates and lessons for data-heavy CUMCM and MCM/ICM problems.<br><sub>updated 2026-09 · CUMCM · MCM/ICM</sub>
 - **[cumcm-problems](https://github.com/CosmicLinks/cumcm-problems)** · ★ 97<br>CUMCM problems from 1992 to 2025.<br><sub>updated 2026-06 · CUMCM</sub>
 - **[2021-ICM-D-Outstanding](https://github.com/liujiyaoFDU/2021-ICM-D-Outstanding)** · ★ 97<br>Outstanding paper and code for 2021 ICM Problem D.<br><sub>updated 2022-02 · MCM/ICM</sub>
 - **[24ICM_E_O_Award_Paper_code](https://github.com/ydchen0806/24ICM_E_O_Award_Paper_code)** · ★ 89<br>Paper and code for an Outstanding (INFORMS Prize) team on 2024 ICM Problem E.<br><sub>updated 2024-07 · MCM/ICM</sub>
@@ -224,7 +224,7 @@ Open-source libraries contest teams use most: optimization, heuristics, forecast
 - **[networkx](https://github.com/networkx/networkx)** · ★ 17.4k<br>Graphs and networks: shortest paths, max flow, centrality.<br><sub>updated 2026-11</sub>
 - **[sympy](https://github.com/sympy/sympy)** · ★ 15.1k<br>Symbolic math for derivations and differential equations.<br><sub>updated 2026-11</sub>
 - **[or-tools](https://github.com/google/or-tools)** · ★ 14.4k<br>Google's OR toolkit for linear and integer programming, constraint programming, routing and scheduling.<br><sub>updated 2026-11 · Apache-2.0</sub>
-- **[statsmodels](https://github.com/statsmodels/statsmodels)** · ★ 11.7k<br>Regression, time series such as ARIMA, and hypothesis tests.<br><sub>updated 2026-11 · BSD-3-Clause</sub>
+- **[statsmodels](https://github.com/statsmodels/statsmodels)** · ★ 11.8k<br>Regression, time series such as ARIMA, and hypothesis tests.<br><sub>updated 2026-11 · BSD-3-Clause</sub>
 - **[sktime](https://github.com/sktime/sktime)** · ★ 10.1k<br>A unified framework for machine learning on time series.<br><sub>updated 2026-11 · BSD-3-Clause</sub>
 - **[SciencePlots](https://github.com/garrettj403/SciencePlots)** · ★ 9.4k<br>Matplotlib styles for publication-quality figures.<br><sub>updated 2026-06 · MIT</sub>
 - **[scikit-opt](https://github.com/guofei9987/scikit-opt)** · ★ 6.7k<br>Genetic algorithms, particle swarm, simulated annealing, ant colony and more in a few lines of code.<br><sub>updated 2026-03 · MIT</sub>
@@ -241,7 +241,7 @@ Open-source libraries contest teams use most: optimization, heuristics, forecast
 - **[SALib](https://github.com/SALib/SALib)** · ★ 1.0k<br>Sensitivity analysis with Sobol, Morris, FAST and more, often used in the model-testing section.<br><sub>updated 2026-11 · MIT</sub>
 - **[PySCIPOpt](https://github.com/scipopt/PySCIPOpt)** · ★ 1.0k<br>Python interface to the SCIP solver.<br><sub>updated 2026-11 · MIT</sub>
 - **[pysd](https://github.com/SDXorg/pysd)** · ★ 467<br>System dynamics in Python, including Vensim models.<br><sub>updated 2026-10 · MIT</sub>
-- **[pyDecision](https://github.com/Valdecy/pyDecision)** · ★ 374<br>Multi-criteria decision methods such as AHP, TOPSIS, entropy weights and VIKOR.<br><sub>updated 2026-10</sub>
+- **[pyDecision](https://github.com/Valdecy/pyDecision)** · ★ 375<br>Multi-criteria decision methods such as AHP, TOPSIS, entropy weights and VIKOR.<br><sub>updated 2026-10</sub>
 
 <a id="cat-research"></a>
 ## Research: LLMs for modeling and optimization
@@ -249,10 +249,10 @@ Open-source libraries contest teams use most: optimization, heuristics, forecast
 Paper code and benchmarks for anyone curious how far LLMs can go.
 
 - **[OptiMUS](https://github.com/teshnizi/OptiMUS)** · ★ 308 · 💤<br>OptiMUS: LLMs plus MIP solvers that formulate and solve optimization problems.<br><sub>updated 2025-11 · MIT</sub>
-- **[ORLM](https://github.com/Cardinal-Operations/ORLM)** · ★ 283 · 💤<br>ORLM: training LLMs for optimization modeling.<br><sub>updated 2025-09 · Apache-2.0</sub>
-- **[OR-License](https://github.com/NineAbyss/OR-License)** · ★ 200 · 🆕<br>Tests whether LLM agents can do an OR practitioner's job without an expert reformulating the problem first.<br><sub>updated 2026-11 · Apache-2.0</sub>
+- **[ORLM](https://github.com/Cardinal-Operations/ORLM)** · ★ 284 · 💤<br>ORLM: training LLMs for optimization modeling.<br><sub>updated 2025-09 · Apache-2.0</sub>
+- **[OR-License](https://github.com/NineAbyss/OR-License)** · ★ 205 · 🆕<br>Tests whether LLM agents can do an OR practitioner's job without an expert reformulating the problem first.<br><sub>updated 2026-11 · Apache-2.0</sub>
 - **[or_llm_agent](https://github.com/bwz96sco/or_llm_agent)** · ★ 108<br>OR-LLM-Agent automates modeling and solving of OR problems.<br><sub>updated 2026-09</sub>
-- **[OptiChat](https://github.com/li-group/OptiChat)** · ★ 73<br>Explains optimization models with LLMs.<br><sub>updated 2026-09 · MIT</sub>
+- **[OptiChat](https://github.com/li-group/OptiChat)** · ★ 74<br>Explains optimization models with LLMs.<br><sub>updated 2026-09 · MIT</sub>
 - **[SIRL](https://github.com/Cardinal-Operations/SIRL)** · ★ 69<br>Reinforcement learning with verifiable rewards for LLM optimization modeling.<br><sub>updated 2026-04</sub>
 - **[ORQA](https://github.com/nl4opt/ORQA)** · ★ 51 · 💤<br>ORQA (AAAI 2025), a QA benchmark for LLM reasoning in operations research.<br><sub>updated 2025-06</sub>
 - **[Mamo](https://github.com/FreedomIntelligence/Mamo)** · ★ 16 · 💤<br>Mamo, a mathematical modeling benchmark checked with solvers.<br><sub>updated 2024-06 · CC-BY-SA-4.0</sub>
@@ -289,8 +289,8 @@ It picks two or three entries for your contest, your tool and how much you want 
 
 | Project | Description | ⭐ | Last update |
 |---|---|---:|---|
-| [Awesome-Vibe-Research](https://github.com/modelscope/Awesome-Vibe-Research) | Resources for AI-assisted research. | 475 | 2026-11 |
-| [awesome-academic-research-skills](https://github.com/kael-odin/awesome-academic-research-skills) | A daily ranking of academic research skills for coding agents. | 210 | 2026-11 |
+| [Awesome-Vibe-Research](https://github.com/modelscope/Awesome-Vibe-Research) | Resources for AI-assisted research. | 478 | 2026-11 |
+| [awesome-academic-research-skills](https://github.com/kael-odin/awesome-academic-research-skills) | A daily ranking of academic research skills for coding agents. | 213 | 2026-11 |
 | [Awesome-LLMs-for-Mathematical-Modeling](https://github.com/DataArcTech/Awesome-LLMs-for-Mathematical-Modeling) | Papers on LLMs for mathematical modeling. | 18 | 2026-11 |
 
 <a id="contributing"></a>
