@@ -4,19 +4,19 @@ Generated from data/tools.yaml. Fields: repo | stars | last push | mode | contes
 
 ## 全流程 Agent 应用 / End-to-end agent apps
 
-- https://github.com/jihe520/MathModelAgent | stars=6339 | pushed=2026-11-02 | mode=auto | contests=- | skills=11
+- https://github.com/jihe520/MathModelAgent | stars=6404 | pushed=2026-11-02 | mode=auto | contests=- | skills=11
   - 数学建模专用 Agent，自动分析问题、建模、写代码、纠错并撰写论文；桌面版内置 Claude Code 和全套 skill，填一个 API Key 即可开始。
   - A modeling agent that analyzes the problem, builds models, writes and fixes code and drafts the paper; the desktop build bundles Claude Code and its skills, so you only add an API key.
-- https://github.com/usail-hkust/LLM-MM-Agent | stars=698 | pushed=2026-09-28 | mode=auto | contests=mcm | skills=-
+- https://github.com/usail-hkust/LLM-MM-Agent | stars=702 | pushed=2026-09-28 | mode=auto | contests=mcm | skills=-
   - 港科大 MM-Agent（NeurIPS 2025），把真实建模问题拆成分析、建模、求解、写作的智能体流程；新版另提供可装进 Codex、Claude Code、Cursor 的「数学建模专家」技能包。
   - MM-Agent from HKUST (NeurIPS 2025), an agent pipeline for real-world modeling problems; a newer release adds a Mathematical Modeling Expert skill pack for Codex, Claude Code and Cursor.
-- https://github.com/sghwr/AutoMM | stars=219 | pushed=2026-08-26 | mode=auto | contests=- | skills=12
+- https://github.com/sghwr/AutoMM | stars=224 | pushed=2026-08-26 | mode=auto | contests=- | skills=12
   - 基于 DeepSeek Harness 的全自动研究流程，按小问推进理解、文献、假设、公式、计算和校验，附实时仪表盘；当前版本不写论文。
   - A fully automatic research harness built on DeepSeek Harness that works question by question through reading, literature, assumptions, formulas, computation and checks, with a live dashboard; it does not write the paper yet.
 - https://github.com/123-qw-as/Beacon | stars=174 | pushed=2026-08-07 | mode=collab | contests=mcm,gmcm | skills=-
   - 基于 LangGraph 的多智能体流水线，面向美赛和研赛：读题、建模、写代码、出图、成文并编译 PDF，关键节点人工审核；有网页界面和命令行。
   - A LangGraph multi-agent pipeline for MCM/ICM and graduate contests that analyzes, models, codes, plots and compiles a PDF paper, with human review at key checkpoints; web UI and CLI.
-- https://github.com/zhou2030109-glitch/Remit | stars=88 | pushed=2026-11-09 | mode=collab | contests=- | skills=-
+- https://github.com/zhou2030109-glitch/Remit | stars=89 | pushed=2026-11-20 | mode=collab | contests=- | skills=-
   - Remit 数模小助手：协调、建模、代码、论文四个 Agent 像一支队伍协作，题意、方案和最终成果由你确认；本地运行，可断点恢复。
   - Remit, a local workspace where coordinator, modeler, coder and writer agents work like a team while you sign off on the problem reading, the approach and the result; runs can resume from checkpoints.
 - https://github.com/yjz211/HaJiMi-Math-Model-Agent | stars=59 | pushed=2026-09-10 | mode=collab | contests=- | skills=-
@@ -28,32 +28,32 @@ Generated from data/tools.yaml. Fields: repo | stars | last push | mode | contes
 
 ## 全流程 Skill（Claude Code / Codex 等） / Full-workflow skills (Claude Code, Codex and others)
 
-- https://github.com/XiaoMaColtAI/math-modeling-skill | stars=1938 | pushed=2026-11-15 | mode=- | contests=cumcm,mcm | skills=14
+- https://github.com/XiaoMaColtAI/math-modeling-skill | stars=1974 | pushed=2026-11-22 | mode=- | contests=cumcm,mcm | skills=14
   - 建模分析 → 代码实现 → 论文撰写三阶段，可以只跑其中一段；Python 和 MATLAB 双语言，附优化、预测、评价、图论等算法资源库，产出 Word 论文。
   - Three stages, analysis, code and paper, that can also run one at a time; Python and MATLAB, an algorithm library for optimization, forecasting, evaluation and graphs, and a Word paper at the end.
-- https://github.com/zhnnky329/MathModeling-skills | stars=1099 | pushed=2026-11-12 | mode=collab | contests=- | skills=28
+- https://github.com/zhnnky329/MathModeling-skills | stars=1127 | pushed=2026-11-12 | mode=collab | contests=- | skills=28
   - 新版从“自动驾驶”改为“助手”：两道硬门由你决定，三个审计角色把关能否提交；支持 Python 与 MATLAB / 北太天元，旧的全自动版保留在 legacy 分支。
   - Now an assistant rather than an autopilot: you decide two hard gates and three auditors decide whether the paper is ready; Python and MATLAB/Baltamatica branches, with the old full-auto version kept on a legacy branch.
-- https://github.com/yushui2022/MathModel-Skill | stars=459 | pushed=2026-10-24 | mode=- | contests=- | skills=12
+- https://github.com/yushui2022/MathModel-Skill | stars=464 | pushed=2026-10-24 | mode=- | contests=- | skills=12
   - 分 Lite / Flash / Standard / Pro 四档，Agent 真正运行代码、整理图表和证据后再写论文并检查，支持原生 Word 公式和 PDF 渲染检查；适配 Trae、Claude Code、Codex。
   - Four tiers, Lite to Pro, where the agent actually runs code and gathers figures and evidence before writing and checking the paper, with native Word equations and PDF render checks; for Trae, Claude Code and Codex.
-- https://github.com/Lupynow/math-modeling-skills | stars=440 | pushed=2026-07-31 | mode=- | contests=cumcm,mcm | skills=2
+- https://github.com/Lupynow/math-modeling-skills | stars=450 | pushed=2026-07-31 | mode=- | contests=cumcm,mcm | skills=2
   - 解题和写论文两个 skill，规则提炼自 150 多篇国赛一等、美赛 O/F 奖论文，含 95+ 场景的模型决策矩阵、8 本算法手册和 22 个 Python 模板。
   - A solver skill and a paper skill whose rules come from 150+ CUMCM first-prize and MCM/ICM O/F papers, with a 95-scenario model decision matrix, eight algorithm cookbooks and 22 Python templates.
-- https://github.com/sweetcornna/mathodology | stars=329 | pushed=2026-11-05 | mode=- | contests=mcm,cumcm,other | skills=9
+- https://github.com/sweetcornna/mathodology | stars=340 | pushed=2026-11-23 | mode=- | contests=mcm,cumcm,other | skills=9
   - 9 个技能、8 个角色加一个桌面工作台：记录实验、核对论文里的数字和图表、核验引用，附 46 类图表模板和敏感性、蒙特卡罗等 18 个实验组件。
   - Nine skills, eight roles and a desktop workbench that logs runs, checks the paper's numbers and figures and verifies citations, plus 46 chart templates and 18 experiment components such as sensitivity and Monte Carlo.
-- https://github.com/handsomeZR-netizen/mathmodel-skill | stars=305 | pushed=2026-09-26 | mode=collab | contests=cumcm,mcm,other | skills=2
+- https://github.com/handsomeZR-netizen/mathmodel-skill | stars=310 | pushed=2026-09-26 | mode=collab | contests=cumcm,mcm,other | skills=2
   - 把比赛拆成 10 个阶段和一份共享决策日志，团队只回答编号问题，随时说“看进度”；提交前检查匿名、页数和 AI 披露。
   - Splits the contest into ten stages with a shared decision log; the team answers numbered questions and can ask for progress at any time, and anonymity, page limits and AI disclosure are checked before submission.
-- https://github.com/RealSeaberry/AutoMCM-Pro | stars=262 | pushed=2026-09-10 | mode=auto | contests=- | skills=7
+- https://github.com/RealSeaberry/AutoMCM-Pro | stars=267 | pushed=2026-09-10 | mode=auto | contests=- | skills=7
   - 让 Claude Code 当“自动驾驶”、人当副驾驶的实验：读题、文献、推导、自证代码到 LaTeX 论文自动推进，人在关键节点审阅；也支持 Codex、opencode、DeepSeek Harness。
   - An experiment where Claude Code is the autopilot and you are the copilot, driving from problem reading and literature to self-checked code and a LaTeX paper while you review at key points; also runs on Codex, opencode and DeepSeek Harness.
-- https://github.com/xuec699-sudo/math-modeling-skills | stars=246 | pushed=2026-06-07 | mode=auto | contests=cumcm,mcm,other | skills=-
+- https://github.com/xuec699-sudo/math-modeling-skills | stars=245 | pushed=2026-06-07 | mode=auto | contests=cumcm,mcm,other | skills=-
   - 全自动和人工把关两种模式，六维选题评估、模型依赖图、五人评审团和学术诚信检查，论文里每个数字都能追溯到脚本输出。
   - Autopilot and manual modes, six-factor problem choice, a model dependency graph, a five-reviewer panel and an integrity gate, with every number in the paper traceable to script output.
   - caveat: Can switch to a manual-checkpoint mode
-- https://github.com/Lucasuiii/modeling-workbench | stars=178 | pushed=2026-09-23 | mode=collab | contests=- | skills=3
+- https://github.com/Lucasuiii/modeling-workbench | stars=181 | pushed=2026-09-23 | mode=collab | contests=- | skills=3
   - 七阶段工作流：候选模型先试算再定，论文数值关联代码和数据，代码改了能发现旧证据失效；三个关键节点由你审阅，交付中英文 LaTeX/PDF。
   - A seven-stage workflow that trial-runs candidate models before choosing, links every number to code and data and flags stale evidence after code changes; you review three checkpoints, and it delivers Chinese and English LaTeX/PDF.
 - https://github.com/chengyike20110519-create/MathModelRun | stars=115 | pushed=2026-10-27 | mode=- | contests=cumcm,mcm,other | skills=3
@@ -65,49 +65,49 @@ Generated from data/tools.yaml. Fields: repo | stars | last push | mode | contes
 - https://github.com/WuXinbo-bo/Math-model-skills | stars=112 | pushed=2026-09-21 | mode=- | contests=cumcm,mcm,other | skills=9
   - Meta-model-agent：数据审计、建模、真实计算、验证、可视化、论文到提交验收的可恢复工作流，强调结果可复现、证据一致。
   - Meta-model-agent, a resumable workflow from data audit and modeling to real computation, validation, figures, paper and submission checks, built around reproducible results and consistent evidence.
-- https://github.com/rootkiller6788/mathmodel-skill | stars=72 | pushed=2026-10-27 | mode=collab | contests=cumcm,mcm,other | skills=8
+- https://github.com/rootkiller6788/mathmodel-skill | stars=73 | pushed=2026-11-17 | mode=collab | contests=cumcm,mcm,other | skills=8
   - 国赛、美赛、电工杯统一工作流：10 个阶段、共享决策日志、确定性脚本和独立检查，Codex 和 Claude Code 可以在同一个目录里接力。
   - One workflow for CUMCM, MCM/ICM and the Electrician's Cup: ten stages, a shared decision log, deterministic scripts and independent gates, so Codex and Claude Code can take turns in one workspace.
-- https://github.com/Odyphus/MathModel-Copilot | stars=67 | pushed=2026-10-10 | mode=- | contests=cumcm,mcm | skills=3
+- https://github.com/Odyphus/MathModel-Copilot | stars=68 | pushed=2026-10-10 | mode=- | contests=cumcm,mcm | skills=3
   - 面向国赛、美赛的建模助手和 skill：审题、模型比较、运行 Python、结果核验、论文辅助和团队协作。
   - A modeling assistant and skill for CUMCM and MCM/ICM: problem reading, model comparison, running Python, result checks, paper help and teamwork.
 - https://github.com/jsChen-biostat/math-modelCN | stars=63 | pushed=2026-09-12 | mode=- | contests=cumcm | skills=26
   - 六步工作流、26 个 skill：赛题分析、建模、编码、科研绘图、论文和查重验收，附绘图模板画廊和算法资料库。
   - A six-step workflow with 26 skills for analysis, modeling, coding, scientific plots, writing and final checks, plus a plot gallery and algorithm notes.
+- https://github.com/capwitf/My-MathModeling-skills | stars=60 | pushed=2026-07-19 | mode=collab | contests=cumcm | skills=14
+  - 14 个按需触发的 skill，需要题面、建模、代码、图表、审查或排版时再介入，整理好证据和风险后把判断交还给人。
+  - Fourteen on-demand skills for the problem text, modeling, code, figures, review or layout that step in only when needed and hand the judgment back to you.
 - https://github.com/anticipate218/math-modeling-skill | stars=59 | pushed=2026-10-10 | mode=collab | contests=cumcm,gmcm,mcm | skills=-
   - 定位是“懂规则、懂评阅的教练”而不是自动写论文：审题选题、选模型、做检验、按规范写，提交前逐项检查会直接出局的红线。
   - Pitched as a coach that knows the rules and the judging, not a paper generator: problem choice, model choice, validation and writing to spec, with a pre-submission check of disqualifying mistakes.
-- https://github.com/capwitf/My-MathModeling-skills | stars=59 | pushed=2026-07-19 | mode=collab | contests=cumcm | skills=14
-  - 14 个按需触发的 skill，需要题面、建模、代码、图表、审查或排版时再介入，整理好证据和风险后把判断交还给人。
-  - Fourteen on-demand skills for the problem text, modeling, code, figures, review or layout that step in only when needed and hand the judgment back to you.
 - https://github.com/yan315598-design/mathmodel-studio | stars=47 | pushed=2026-09-22 | mode=- | contests=- | skills=4
   - 数模工坊：审题、建模、求解、验证和论文整理，可以从整道题开始，也可以只处理手上已有的代码或草稿；支持 Codex、Claude Code、ZCode。
   - Mathmodel Studio covers reading, modeling, solving, validation and paper tidy-up, either from a full problem or just the code or draft you already have; for Codex, Claude Code and ZCode.
-- https://github.com/woodfishhhh/EZ_math_model | stars=42 | pushed=2026-07-28 | mode=auto | contests=cumcm,mcm,gmcm | skills=29
-  - 固定七阶段：题目解析、建模、Python 求解、论文、质量审查和打包，一次运行输出 Markdown / Word / PDF 论文和代码包。
-  - A fixed seven-stage run, from parsing and modeling to Python solving, paper, review and packaging, that outputs the paper as Markdown, Word and PDF plus the code.
-- https://github.com/Andiii208/dsh-ultramath | stars=42 | pushed=2026-08-24 | mode=auto | contests=- | skills=-
+- https://github.com/Andiii208/dsh-ultramath | stars=44 | pushed=2026-08-24 | mode=auto | contests=- | skills=-
   - DeepSeek Harness 插件：带工具编排的多 Agent 预设，一个预设跑通读题到审稿，附 33 篇模型库和论文模板。
   - A DeepSeek Harness plugin with a multi-agent preset that runs from reading to review, plus a 33-model library and paper templates.
+- https://github.com/woodfishhhh/EZ_math_model | stars=43 | pushed=2026-07-28 | mode=auto | contests=cumcm,mcm,gmcm | skills=29
+  - 固定七阶段：题目解析、建模、Python 求解、论文、质量审查和打包，一次运行输出 Markdown / Word / PDF 论文和代码包。
+  - A fixed seven-stage run, from parsing and modeling to Python solving, paper, review and packaging, that outputs the paper as Markdown, Word and PDF plus the code.
 - https://github.com/usst-yk/cumcm-math-modeling-codex-skill | stars=38 | pushed=2026-05-16 | mode=- | contests=cumcm | skills=-
   - 国赛 Codex skill：拆题、查数据、建模、求解、出图、验证，最后写进 LaTeX 论文；在 Codex 里一句话就能安装。
   - A CUMCM skill for Codex that decomposes the problem, checks data, models, solves, plots, validates and writes into a LaTeX paper; installs from a one-line Codex request.
+- https://github.com/LEEHAHAHAHA/math-modeling-skill | stars=28 | pushed=2026-09-02 | mode=- | contests=cumcm,mcm | skills=2
+  - 七阶段从读题到交付，机理模型优先，每问给 2–3 个不同方案，机器学习只做稳健性检验；附国赛 LaTeX 模板，可用于 Claude Code、Codex、WorkBuddy。
+  - Seven stages from reading to delivery that favor mechanistic models, offer two or three distinct options per question and use machine learning only as a robustness check; ships a CUMCM LaTeX template.
+- https://github.com/zhu-hailin/cumcm-modeling-analyst | stars=28 | pushed=2026-09-30 | mode=collab | contests=cumcm | skills=-
+  - 在国赛里实际用过的协作 skill，逐问确认，把题目、模型和证据整理成队友看得懂的论文和交付物。
+  - A collaboration skill used in a real CUMCM that confirms each question with you and turns the problem, models and evidence into a paper and files teammates can follow.
 - https://github.com/mantou6666/Math-Modeling-Agent-Flow | stars=28 | pushed=2026-08-20 | mode=- | contests=cumcm,mcm | skills=-
   - Solver → Paper → Finalizer → Growth 四个 skill，覆盖建模、论文、提交前检查和赛后复盘。
   - Four skills, Solver, Paper, Finalizer and Growth, covering modeling, writing, pre-submission checks and a post-contest review.
-- https://github.com/zhu-hailin/cumcm-modeling-analyst | stars=27 | pushed=2026-09-30 | mode=collab | contests=cumcm | skills=-
-  - 在国赛里实际用过的协作 skill，逐问确认，把题目、模型和证据整理成队友看得懂的论文和交付物。
-  - A collaboration skill used in a real CUMCM that confirms each question with you and turns the problem, models and evidence into a paper and files teammates can follow.
-- https://github.com/LEEHAHAHAHA/math-modeling-skill | stars=25 | pushed=2026-09-02 | mode=- | contests=cumcm,mcm | skills=2
-  - 七阶段从读题到交付，机理模型优先，每问给 2–3 个不同方案，机器学习只做稳健性检验；附国赛 LaTeX 模板，可用于 Claude Code、Codex、WorkBuddy。
-  - Seven stages from reading to delivery that favor mechanistic models, offer two or three distinct options per question and use machine learning only as a robustness check; ships a CUMCM LaTeX template.
 
 ## 专项 Skill：选题、选模型、单题型、摘要 / Focused skills: problem choice, model choice, one problem type, abstracts
 
-- https://github.com/Mr-potato-123/cumcm-paper-hand-skill | stars=214 | pushed=2026-08-18 | mode=- | contests=cumcm,mcm | skills=-
+- https://github.com/Mr-potato-123/cumcm-paper-hand-skill | stars=216 | pushed=2026-08-18 | mode=- | contests=cumcm,mcm | skills=-
   - 论文手：在已整理好建模和求解材料的参赛文件夹里写论文，内置获奖论文参考库和 LaTeX 模板。
   - A paper-writer skill that works in a contest folder where models and results are already organized, with a library of winning papers and a LaTeX template.
-- https://github.com/haoxilin/cumcm-live-workflow-skill | stars=185 | pushed=2026-09-07 | mode=- | contests=cumcm | skills=-
+- https://github.com/haoxilin/cumcm-live-workflow-skill | stars=189 | pushed=2026-09-07 | mode=- | contests=cumcm | skills=-
   - 经过真实国赛检验的实战手册：读题自查、出图、LaTeX、交叉审阅、填结果模板，含 2026 版 AI 使用规定和 26 条终审自查表。
   - A field manual tested in a real CUMCM: reading checks, figures, LaTeX, cross review and result templates, with the 2026 AI-use rules and a 26-item final checklist.
 - https://github.com/liufanshan11/cumcm-c-problem-lfs | stars=146 | pushed=2026-08-24 | mode=- | contests=cumcm | skills=-
@@ -119,16 +119,16 @@ Generated from data/tools.yaml. Fields: repo | stars | last push | mode | contes
 - https://github.com/y3519712124-ui/math-modeling-contest-route-selection | stars=92 | pushed=2026-06-19 | mode=- | contests=cumcm,mcm | skills=-
   - 选题和路线选择：逐题比较建模路线、可行性、验证方式和推翻条件，避免一上来就套 TOPSIS、熵权法、LSTM 的同质化方案。
   - Problem and route choice that compares each problem's modeling route, feasibility, validation and what would overturn it, instead of reaching for TOPSIS, entropy weights or LSTM by default.
-- https://github.com/yugwl/-MCM-ICM-CUMCM-100-AI-Prompts- | stars=41 | pushed=2025-11-29 | mode=- | contests=mcm,cumcm | skills=- | prompt-collection
-  - 100 条数学建模提示词，按比赛流程分成 8 个阶段，任何聊天机器人都能用。
-  - 100 prompts for modeling contests in eight stages of the contest, usable in any chatbot.
-- https://github.com/siyunhao2025-beep/math-modeling-to-sci-skill | stars=40 | pushed=2026-11-14 | mode=- | contests=- | skills=-
+- https://github.com/siyunhao2025-beep/math-modeling-to-sci-skill | stars=40 | pushed=2026-11-23 | mode=- | contests=- | skills=-
   - 赛后把建模报告或竞赛论文改造成可投稿的 SCI 论文：重新界定研究问题，补基线和稳健性，核对引用和期刊匹配。
   - After the contest, turns a modeling report or contest paper into a journal submission by reframing the research question, adding baselines and robustness and checking citations and journal fit.
+- https://github.com/yugwl/-MCM-ICM-CUMCM-100-AI-Prompts- | stars=40 | pushed=2025-11-29 | mode=- | contests=mcm,cumcm | skills=- | prompt-collection
+  - 100 条数学建模提示词，按比赛流程分成 8 个阶段，任何聊天机器人都能用。
+  - 100 prompts for modeling contests in eight stages of the contest, usable in any chatbot.
 - https://github.com/bydtesla1609/cumcm-taste | stars=35 | pushed=2026-08-19 | mode=- | contests=cumcm | skills=-
   - 选模型之前先做事实审查：哪些现实因素会改变结果、哪些能省略、有没有阈值或滞后效应，先出“方法准入报告”再选模型。
   - A reality check before choosing a model: which real factors change the result, which can be dropped and whether thresholds or lags matter, written up before any model is allowed.
-- https://github.com/DDXYY189/zhengdabei-survey-report-skill | stars=29 | pushed=2026-09-25 | mode=- | contests=other | skills=-
+- https://github.com/DDXYY189/zhengdabei-survey-report-skill | stars=31 | pushed=2026-09-25 | mode=- | contests=other | skills=-
   - 正大杯市场调查与分析大赛报告 skill：调查设计、统计方法、结论建议和提交前审查，含 AI 使用说明。
   - For the Zhengda Cup market research contest: survey design, statistical methods, recommendations and a pre-submission audit, including the AI-use statement.
 - https://github.com/jjh666888/cumcm-abstract-writing-skill | stars=28 | pushed=2026-08-12 | mode=- | contests=cumcm | skills=-
@@ -140,7 +140,7 @@ Generated from data/tools.yaml. Fields: repo | stars | last push | mode | contes
 
 ## 研究生赛（华为杯）专用 / For the graduate contest (Huawei Cup)
 
-- https://github.com/xieyouxixi/hwb-math-modeling-skills | stars=193 | pushed=2026-10-20 | mode=- | contests=gmcm | skills=-
+- https://github.com/xieyouxixi/hwb-math-modeling-skills | stars=191 | pushed=2026-10-20 | mode=- | contests=gmcm | skills=-
   - 围绕华为杯训练场景的读题、方案设计、模型适配、章节检查和全文评审 skill；作者说明适合赛前训练、自查和复盘。
   - Skills for Huawei Cup practice covering reading, approach design, model fit, section checks and full reviews; the author positions it for training, self-review and post-contest review.
   - caveat: Check the current year's rules before using it during the contest
@@ -153,13 +153,13 @@ Generated from data/tools.yaml. Fields: repo | stars | last push | mode | contes
 
 ## 论文评审、自查与 AI 使用说明 / Paper review, self-checks and AI-use statements
 
-- https://github.com/BZDmathclub/bzd-math-modeling-skills | stars=435 | pushed=2026-09-18 | mode=- | contests=cumcm | skills=-
+- https://github.com/BZDmathclub/bzd-math-modeling-skills | stars=434 | pushed=2026-09-18 | mode=- | contests=cumcm | skills=-
   - 依据 2020–2025 年国赛评分细则和评阅流程：逐句读题、建模思路、分章节自查、格式检查、评委式评审、位次预估和高校国奖数据查询。
   - Built on CUMCM 2020–2025 scoring rules and judging: sentence-by-sentence reading, modeling ideas, section self-checks, format checks, judge-style review, rank estimates and a lookup of national awards by university.
-- https://github.com/yuanchen-home/cumcm-step-review | stars=316 | pushed=2026-09-04 | mode=collab | contests=cumcm | skills=8
+- https://github.com/yuanchen-home/cumcm-step-review | stars=317 | pushed=2026-09-04 | mode=collab | contests=cumcm | skills=8
   - 国赛逐步审核版：问题重述、逐问建模、检验、摘要等每一部分先给方案，经你审核才写代码和正文，最后生成 AI 工具使用报告。
   - Step-by-step CUMCM review: each part, from restatement and per-question models to tests and the abstract, is proposed first and written only after you approve, ending with the AI-use report.
-- https://github.com/landawang-star/mathematical-modeling-review | stars=105 | pushed=2026-11-08 | mode=- | contests=cumcm | skills=-
+- https://github.com/landawang-star/mathematical-modeling-review | stars=104 | pushed=2026-11-08 | mode=- | contests=cumcm | skills=-
   - 把赛题和论文交给它，得到逐问诊断、五维评分、修改优先级和非官方的奖项区间预测。
   - Give it the problem and your paper to get a per-question diagnosis, five-part scores, what to fix first and an unofficial award range.
   - caveat: Personal, non-commercial use only
@@ -169,25 +169,25 @@ Generated from data/tools.yaml. Fields: repo | stars | last push | mode | contes
 
 ## 论文模板（LaTeX / Typst） / Paper templates (LaTeX and Typst)
 
-- https://github.com/latexstudio/CUMCMThesis | stars=1444 | pushed=2026-08-26 | mode=- | contests=cumcm | skills=-
+- https://github.com/latexstudio/CUMCMThesis | stars=1449 | pushed=2026-08-26 | mode=- | contests=cumcm | skills=-
   - 国赛 LaTeX 论文模板，已适配 2026 年格式。
   - The CUMCM LaTeX template, updated for the 2026 format.
 - https://github.com/latexstudio/GMCMthesis | stars=331 | pushed=2024-09-17 | mode=- | contests=gmcm | skills=-
   - 研究生数学建模竞赛（华为杯）LaTeX 模板（2024 版）。
   - LaTeX template for the graduate contest (Huawei Cup), 2024 edition.
-- https://github.com/QTH1225/LaTeX-in-ICM-MCM | stars=290 | pushed=2026-10-28 | mode=- | contests=mcm | skills=-
+- https://github.com/QTH1225/LaTeX-in-ICM-MCM | stars=294 | pushed=2026-10-28 | mode=- | contests=mcm | skills=-
   - 基于 EasyMCM 的美赛 LaTeX 模板，支持多种排版样式。
   - An MCM/ICM LaTeX template based on EasyMCM with several layout styles.
 - https://github.com/latexstudio-org/mcmthesis | stars=194 | pushed=2024-01-25 | mode=- | contests=mcm | skills=-
   - 美赛 LaTeX 模板 mcmthesis。
   - mcmthesis, a LaTeX template for MCM/ICM.
-- https://github.com/yifengchen07/cumcm-latex-template | stars=115 | pushed=2026-08-31 | mode=- | contests=cumcm | skills=-
+- https://github.com/yifengchen07/cumcm-latex-template | stars=116 | pushed=2026-08-31 | mode=- | contests=cumcm | skills=-
   - 针对 2026 年国赛的 LaTeX 模板。
   - A LaTeX template for CUMCM 2026.
 - https://github.com/1SPECOO/Huawei_Cup_2026_Mathematical_Modeling_latex | stars=71 | pushed=2026-09-22 | mode=- | contests=gmcm | skills=-
   - 2026 年华为杯 LaTeX 模板，与官网 Word 要求一致。
   - Huawei Cup 2026 LaTeX template matching the official Word requirements.
-- https://github.com/jayxin/cumcm | stars=37 | pushed=2026-08-29 | mode=- | contests=cumcm | skills=-
+- https://github.com/jayxin/cumcm | stars=38 | pushed=2026-08-29 | mode=- | contests=cumcm | skills=-
   - 国赛 LaTeX 模板。
   - Another LaTeX template for CUMCM.
 - https://github.com/a-kkiri/CUMCM-typst-template | stars=34 | pushed=2025-07-31 | mode=- | contests=cumcm | skills=-
@@ -199,25 +199,25 @@ Generated from data/tools.yaml. Fields: repo | stars | last push | mode | contes
 
 ## 教程与资料合集 / Tutorials and study collections
 
-- https://github.com/zhanwen/MathModel | stars=12459 | pushed=2025-09-20 | mode=- | contests=cumcm,mcm,gmcm | skills=-
+- https://github.com/zhanwen/MathModel | stars=12489 | pushed=2025-09-20 | mode=- | contests=cumcm,mcm,gmcm | skills=-
   - 星标最多的数模资料库：优秀论文、算法、LaTeX 模板、算法思维导图、参考书和 MATLAB 教程，本科和研究生赛都有。
   - The most-starred collection: winning papers, algorithms, LaTeX templates, mind maps, books and MATLAB tutorials for undergraduate and graduate contests.
-- https://github.com/personqianduixue/Math_Model | stars=5345 | pushed=2023-12-01 | mode=- | contests=cumcm,mcm,gmcm,other | skills=-
+- https://github.com/personqianduixue/Math_Model | stars=5377 | pushed=2023-12-01 | mode=- | contests=cumcm,mcm,gmcm,other | skills=-
   - 国赛、美赛、华为杯、MathorCup、电工杯等十多个比赛的资料和 LaTeX 模板。
   - Materials and LaTeX templates for a dozen contests, including CUMCM, MCM/ICM, the Huawei Cup, MathorCup and the Electrician's Cup.
-- https://github.com/datawhalechina/intro-mathmodel | stars=961 | pushed=2026-01-16 | mode=- | contests=- | skills=-
+- https://github.com/datawhalechina/intro-mathmodel | stars=960 | pushed=2026-01-16 | mode=- | contests=- | skills=-
   - Datawhale《数学建模导论》，覆盖常用模型与算法的系统教程。
   - Datawhale's Introduction to Mathematical Modeling, a structured course on common models and algorithms.
-- https://github.com/QInzhengk/Math-Model-and-Machine-Learning | stars=661 | pushed=2026-11-05 | mode=- | contests=- | skills=-
+- https://github.com/QInzhengk/Math-Model-and-Machine-Learning | stars=662 | pushed=2026-11-05 | mode=- | contests=- | skills=-
   - 数学建模和机器学习、深度学习、大模型的笔记和资料，持续更新。
   - Notes on modeling, machine learning, deep learning and LLMs, still updated.
-- https://github.com/GuangLun2000/COMAP-MCM-2026 | stars=395 | pushed=2026-01-31 | mode=- | contests=mcm | skills=-
+- https://github.com/GuangLun2000/COMAP-MCM-2026 | stars=397 | pushed=2026-01-31 | mode=- | contests=mcm | skills=-
   - 一支美赛队开源的全套材料：论文、MATLAB/Python 代码、作图 PPT 模板、写作与协作笔记和 Word 模板。
   - One MCM team's full kit: their paper, MATLAB/Python code, figure templates, notes on writing and teamwork, and a Word template.
 - https://github.com/HBdingdang/math-model | stars=275 | pushed=2023-09-10 | mode=- | contests=cumcm,mcm,gmcm | skills=-
   - 美赛、国赛、研赛论文和各类模型方法整理，适合入门和进阶。
   - Papers from MCM/ICM, CUMCM and the graduate contest plus notes on model types, for beginners and beyond.
-- https://github.com/zichuan-liu/WHUT_CUMCM20 | stars=172 | pushed=2022-05-02 | mode=- | contests=cumcm,mcm,other | skills=-
+- https://github.com/zichuan-liu/WHUT_CUMCM20 | stars=173 | pushed=2022-05-02 | mode=- | contests=cumcm,mcm,other | skills=-
   - 武汉理工大学参赛资料：国赛、美赛、数维杯、亚太赛的论文和校内集训材料。
   - Wuhan University of Technology's contest materials: papers from CUMCM, MCM/ICM and other contests plus training notes.
 - https://github.com/zsy0x/math_model | stars=90 | pushed=2026-08-09 | mode=- | contests=cumcm,mcm,other | skills=-
@@ -229,13 +229,13 @@ Generated from data/tools.yaml. Fields: repo | stars | last push | mode | contes
 
 ## 算法与代码库 / Algorithms and code
 
-- https://github.com/HuangCongQing/Algorithms_MathModels | stars=2451 | pushed=2022-12-25 | mode=- | contests=cumcm,mcm | skills=-
+- https://github.com/HuangCongQing/Algorithms_MathModels | stars=2457 | pushed=2022-12-25 | mode=- | contests=cumcm,mcm | skills=-
   - 国赛、美赛常用算法的 MATLAB 实现。
   - MATLAB implementations of algorithms common in CUMCM and MCM/ICM.
-- https://github.com/Lanrzip/Mathematical-Modeling | stars=562 | pushed=2020-07-29 | mode=- | contests=- | skills=-
+- https://github.com/Lanrzip/Mathematical-Modeling | stars=561 | pushed=2020-07-29 | mode=- | contests=- | skills=-
   - 数学建模常见模型的 Python 实现。
   - Python implementations of common modeling methods.
-- https://github.com/hacheyz/PMMAA | stars=428 | pushed=2024-08-27 | mode=- | contests=- | skills=-
+- https://github.com/hacheyz/PMMAA | stars=426 | pushed=2024-08-27 | mode=- | contests=- | skills=-
   - 《Python 数学建模算法与应用》的笔记和代码，按章节整理。
   - Notes and code for the Python edition of the classic Chinese textbook on modeling algorithms, by chapter.
 - https://github.com/RabbitWhite1/Mathematical-Modeling-In-Python | stars=223 | pushed=2020-09-12 | mode=- | contests=- | skills=-
@@ -253,19 +253,19 @@ Generated from data/tools.yaml. Fields: repo | stars | last push | mode | contes
 - https://github.com/STL-CC/Mathematical-modeling-algorithm-and-Application | stars=49 | pushed=2026-02-05 | mode=- | contests=- | skills=-
   - 司守奎《数学建模算法与应用》案例的 Python 实现。
   - Python implementations of the cases in Si Shoukui's modeling textbook.
-- https://github.com/FelixYuan-YF/MCM-ICM | stars=34 | pushed=2025-02-21 | mode=- | contests=mcm | skills=-
+- https://github.com/FelixYuan-YF/MCM-ICM | stars=35 | pushed=2025-02-21 | mode=- | contests=mcm | skills=-
   - 美赛常用模型的 Python 实现，附历年 Outstanding 论文。
   - Python implementations of common MCM/ICM models, with past Outstanding papers.
 
 ## 真题与获奖论文 / Past problems and winning papers
 
-- https://github.com/dick20/MCM-ICM | stars=2329 | pushed=2025-07-23 | mode=- | contests=mcm | skills=-
+- https://github.com/dick20/MCM-ICM | stars=2339 | pushed=2025-07-23 | mode=- | contests=mcm | skills=-
   - 2004–2020 年美赛 O 奖论文合集。
   - MCM/ICM Outstanding papers from 2004 to 2020.
 - https://github.com/zhenhua-chen1/Postgraduate-Mathematical-Contest-in-Modelling2 | stars=229 | pushed=2026-09-22 | mode=- | contests=gmcm | skills=-
   - 华为杯历年数据分析类题目的代码，作者曾获一等奖。
   - Code for past Huawei Cup data-analysis problems by a first-prize winner.
-- https://github.com/Nahuyiur/2025-MCM-ICM-Problem-C | stars=148 | pushed=2026-09-26 | mode=- | contests=mcm | skills=-
+- https://github.com/Nahuyiur/2025-MCM-ICM-Problem-C | stars=149 | pushed=2026-09-26 | mode=- | contests=mcm | skills=-
   - 2025 年美赛 C 题 Outstanding 队伍的代码和论文。
   - Code and paper from an Outstanding team on 2025 MCM Problem C.
 - https://github.com/LUKEQ420/MCM-ICM-2025-E-Nitrogen-Cycling-Model | stars=109 | pushed=2026-01-17 | mode=- | contests=mcm | skills=-
@@ -274,22 +274,22 @@ Generated from data/tools.yaml. Fields: repo | stars | last push | mode | contes
 - https://github.com/JiahaoLiu2005/Mathematical_Contest_in_Modeling | stars=104 | pushed=2026-09-08 | mode=- | contests=cumcm,mcm | skills=-
   - 国赛和美赛大数据方向赛题的代码、论文模板和比赛经验。
   - Code, templates and lessons for data-heavy CUMCM and MCM/ICM problems.
+- https://github.com/liujiyaoFDU/2021-ICM-D-Outstanding | stars=98 | pushed=2022-02-17 | mode=- | contests=mcm | skills=-
+  - 2021 年美赛 D 题 O 奖论文和代码。
+  - Outstanding paper and code for 2021 ICM Problem D.
 - https://github.com/CosmicLinks/cumcm-problems | stars=97 | pushed=2026-06-29 | mode=- | contests=cumcm | skills=-
   - 1992–2025 年国赛真题汇总。
   - CUMCM problems from 1992 to 2025.
-- https://github.com/liujiyaoFDU/2021-ICM-D-Outstanding | stars=97 | pushed=2022-02-17 | mode=- | contests=mcm | skills=-
-  - 2021 年美赛 D 题 O 奖论文和代码。
-  - Outstanding paper and code for 2021 ICM Problem D.
 - https://github.com/ydchen0806/24ICM_E_O_Award_Paper_code | stars=89 | pushed=2024-07-23 | mode=- | contests=mcm | skills=-
   - 2024 年美赛 E 题 O 奖（INFORMS 冠名奖）论文和代码。
   - Paper and code for an Outstanding (INFORMS Prize) team on 2024 ICM Problem E.
 - https://github.com/seanys/CUMCM2020-Desert-Game | stars=76 | pushed=2020-12-05 | mode=- | contests=cumcm | skills=-
   - 2020 年国赛 B 题“沙漠游戏”全国一等奖论文、源码和 LaTeX。
   - National first-prize paper, code and LaTeX for CUMCM 2020 Problem B.
-- https://github.com/yan-fanyu/CUMCM-Paper-And-SourceCode | stars=71 | pushed=2025-06-28 | mode=- | contests=cumcm | skills=-
+- https://github.com/yan-fanyu/CUMCM-Paper-And-SourceCode | stars=72 | pushed=2025-06-28 | mode=- | contests=cumcm | skills=-
   - 2010–2024 年国赛论文和源代码。
   - CUMCM papers and source code from 2010 to 2024.
-- https://github.com/linggm3/2023_CUMCM_National-First-Prize | stars=64 | pushed=2025-08-02 | mode=- | contests=cumcm | skills=-
+- https://github.com/linggm3/2023_CUMCM_National-First-Prize | stars=63 | pushed=2025-08-02 | mode=- | contests=cumcm | skills=-
   - 2023 年国赛 A 题定日镜场优化，全国一等奖代码、论文和答辩 PPT。
   - National first prize on CUMCM 2023 Problem A (heliostat field design): code, paper and defense slides.
 - https://github.com/cny123222/CUMCM-2024A-Bench-Dragon | stars=62 | pushed=2025-06-27 | mode=- | contests=cumcm | skills=-
@@ -304,85 +304,85 @@ Generated from data/tools.yaml. Fields: repo | stars | last push | mode | contes
 
 ## 求解器与常用库 / Solvers and libraries
 
-- https://github.com/meta/prophet | stars=20491 | pushed=2026-11-11 | mode=- | contests=- | skills=-
+- https://github.com/meta/prophet | stars=20496 | pushed=2026-11-11 | mode=- | contests=- | skills=-
   - 带季节和节假日效应的时间序列预测。
   - Time-series forecasting with seasonality and holiday effects.
-- https://github.com/networkx/networkx | stars=17395 | pushed=2026-11-15 | mode=- | contests=- | skills=-
+- https://github.com/networkx/networkx | stars=17413 | pushed=2026-11-20 | mode=- | contests=- | skills=-
   - 图与网络分析，最短路、最大流、中心性。
   - Graphs and networks: shortest paths, max flow, centrality.
-- https://github.com/sympy/sympy | stars=15101 | pushed=2026-11-15 | mode=- | contests=- | skills=-
+- https://github.com/sympy/sympy | stars=15122 | pushed=2026-11-22 | mode=- | contests=- | skills=-
   - 符号计算：推公式、解微分方程。
   - Symbolic math for derivations and differential equations.
-- https://github.com/google/or-tools | stars=14383 | pushed=2026-11-16 | mode=- | contests=- | skills=-
+- https://github.com/google/or-tools | stars=14431 | pushed=2026-11-23 | mode=- | contests=- | skills=-
   - Google 运筹工具箱：线性和整数规划、约束规划、车辆路径、排班。
   - Google's OR toolkit for linear and integer programming, constraint programming, routing and scheduling.
-- https://github.com/statsmodels/statsmodels | stars=11750 | pushed=2026-11-15 | mode=- | contests=- | skills=-
+- https://github.com/statsmodels/statsmodels | stars=11764 | pushed=2026-11-23 | mode=- | contests=- | skills=-
   - 回归、时间序列（ARIMA 等）、假设检验。
   - Regression, time series such as ARIMA, and hypothesis tests.
-- https://github.com/sktime/sktime | stars=10098 | pushed=2026-11-14 | mode=- | contests=- | skills=-
+- https://github.com/sktime/sktime | stars=10100 | pushed=2026-11-21 | mode=- | contests=- | skills=-
   - 统一接口的时间序列机器学习框架。
   - A unified framework for machine learning on time series.
-- https://github.com/garrettj403/SciencePlots | stars=9407 | pushed=2026-06-23 | mode=- | contests=- | skills=-
+- https://github.com/garrettj403/SciencePlots | stars=9427 | pushed=2026-06-23 | mode=- | contests=- | skills=-
   - Matplotlib 的论文风格配色和样式。
   - Matplotlib styles for publication-quality figures.
-- https://github.com/guofei9987/scikit-opt | stars=6729 | pushed=2026-03-25 | mode=- | contests=- | skills=-
+- https://github.com/guofei9987/scikit-opt | stars=6730 | pushed=2026-03-25 | mode=- | contests=- | skills=-
   - 遗传、粒子群、模拟退火、蚁群等智能算法，几行代码就能调用。
   - Genetic algorithms, particle swarm, simulated annealing, ant colony and more in a few lines of code.
-- https://github.com/DEAP/deap | stars=6462 | pushed=2026-04-17 | mode=- | contests=- | skills=-
+- https://github.com/DEAP/deap | stars=6461 | pushed=2026-04-17 | mode=- | contests=- | skills=-
   - 灵活的进化算法框架。
   - A flexible evolutionary computation framework.
-- https://github.com/cvxpy/cvxpy | stars=6394 | pushed=2026-11-12 | mode=- | contests=- | skills=-
+- https://github.com/cvxpy/cvxpy | stars=6400 | pushed=2026-11-23 | mode=- | contests=- | skills=-
   - 用 Python 写凸优化问题的建模语言。
   - A Python modeling language for convex optimization.
-- https://github.com/Nixtla/statsforecast | stars=4980 | pushed=2026-11-13 | mode=- | contests=- | skills=-
+- https://github.com/Nixtla/statsforecast | stars=4984 | pushed=2026-11-19 | mode=- | contests=- | skills=-
   - 快速的统计预测模型合集。
   - Fast statistical forecasting models.
-- https://github.com/mesa/mesa | stars=3957 | pushed=2026-11-15 | mode=- | contests=- | skills=-
+- https://github.com/mesa/mesa | stars=3967 | pushed=2026-11-23 | mode=- | contests=- | skills=-
   - 基于智能体（agent-based）的仿真建模。
   - Agent-based modeling and simulation.
-- https://github.com/the-dual-space/pymoo | stars=2997 | pushed=2026-11-12 | mode=- | contests=- | skills=-
+- https://github.com/the-dual-space/pymoo | stars=3002 | pushed=2026-11-12 | mode=- | contests=- | skills=-
   - 多目标优化库：NSGA-II、NSGA-III、MOEA/D 等。
   - Multi-objective optimization with NSGA-II, NSGA-III, MOEA/D and more.
-- https://github.com/Pyomo/pyomo | stars=2565 | pushed=2026-11-16 | mode=- | contests=- | skills=-
+- https://github.com/Pyomo/pyomo | stars=2563 | pushed=2026-11-23 | mode=- | contests=- | skills=-
   - 面向对象的代数建模语言，可接各种求解器。
   - An algebraic modeling language that works with many solvers.
-- https://github.com/coin-or/pulp | stars=2499 | pushed=2026-11-13 | mode=- | contests=- | skills=-
+- https://github.com/coin-or/pulp | stars=2499 | pushed=2026-11-23 | mode=- | contests=- | skills=-
   - 简单易用的 Python 线性规划库。
   - A simple Python library for linear programming.
-- https://github.com/jump-dev/JuMP.jl | stars=2490 | pushed=2026-11-13 | mode=- | contests=- | skills=-
+- https://github.com/jump-dev/JuMP.jl | stars=2490 | pushed=2026-11-19 | mode=- | contests=- | skills=-
   - Julia 的数学优化建模语言。
   - Mathematical optimization modeling in Julia.
-- https://github.com/geatpy-dev/geatpy | stars=2121 | pushed=2026-02-05 | mode=- | contests=- | skills=-
+- https://github.com/geatpy-dev/geatpy | stars=2120 | pushed=2026-02-05 | mode=- | contests=- | skills=-
   - 高性能进化算法工具箱和框架。
   - A high-performance evolutionary algorithm toolbox and framework.
-- https://github.com/ERGO-Code/HiGHS | stars=1928 | pushed=2026-11-16 | mode=- | contests=- | skills=-
+- https://github.com/ERGO-Code/HiGHS | stars=1945 | pushed=2026-11-23 | mode=- | contests=- | skills=-
   - 高性能开源线性 / 混合整数规划求解器。
   - A fast open-source LP and MIP solver.
-- https://github.com/SALib/SALib | stars=1026 | pushed=2026-11-15 | mode=- | contests=- | skills=-
+- https://github.com/SALib/SALib | stars=1025 | pushed=2026-11-22 | mode=- | contests=- | skills=-
   - 敏感性分析：Sobol、Morris、FAST 等，论文里的“模型检验”常用。
   - Sensitivity analysis with Sobol, Morris, FAST and more, often used in the model-testing section.
-- https://github.com/scipopt/PySCIPOpt | stars=1004 | pushed=2026-11-15 | mode=- | contests=- | skills=-
+- https://github.com/scipopt/PySCIPOpt | stars=1003 | pushed=2026-11-23 | mode=- | contests=- | skills=-
   - SCIP 求解器的 Python 接口。
   - Python interface to the SCIP solver.
-- https://github.com/SDXorg/pysd | stars=467 | pushed=2026-10-05 | mode=- | contests=- | skills=-
+- https://github.com/SDXorg/pysd | stars=466 | pushed=2026-10-05 | mode=- | contests=- | skills=-
   - Python 系统动力学建模，可读 Vensim 模型。
   - System dynamics in Python, including Vensim models.
-- https://github.com/Valdecy/pyDecision | stars=375 | pushed=2026-10-15 | mode=- | contests=- | skills=-
+- https://github.com/Valdecy/pyDecision | stars=374 | pushed=2026-10-15 | mode=- | contests=- | skills=-
   - 多准则决策：AHP、TOPSIS、熵权法、VIKOR 等评价类方法。
   - Multi-criteria decision methods such as AHP, TOPSIS, entropy weights and VIKOR.
 
 ## 研究：大模型做数学建模和运筹优化 / Research: LLMs for modeling and optimization
 
-- https://github.com/teshnizi/OptiMUS | stars=308 | pushed=2025-11-04 | mode=- | contests=- | skills=-
+- https://github.com/teshnizi/OptiMUS | stars=309 | pushed=2025-11-04 | mode=- | contests=- | skills=-
   - OptiMUS：大模型加 MIP 求解器自动完成优化建模。
   - OptiMUS: LLMs plus MIP solvers that formulate and solve optimization problems.
-- https://github.com/Cardinal-Operations/ORLM | stars=284 | pushed=2025-09-18 | mode=- | contests=- | skills=-
+- https://github.com/Cardinal-Operations/ORLM | stars=285 | pushed=2025-09-18 | mode=- | contests=- | skills=-
   - ORLM：训练专门做优化建模的大模型。
   - ORLM: training LLMs for optimization modeling.
-- https://github.com/NineAbyss/OR-License | stars=205 | pushed=2026-11-07 | mode=- | contests=- | skills=-
+- https://github.com/NineAbyss/OR-License | stars=147 | pushed=2026-11-07 | mode=- | contests=- | skills=-
   - 评测大模型 Agent 能否在没有专家预先改写问题的情况下完成运筹优化工作。
   - Tests whether LLM agents can do an OR practitioner's job without an expert reformulating the problem first.
-- https://github.com/bwz96sco/or_llm_agent | stars=108 | pushed=2026-09-30 | mode=- | contests=- | skills=-
+- https://github.com/bwz96sco/or_llm_agent | stars=109 | pushed=2026-09-30 | mode=- | contests=- | skills=-
   - OR-LLM-Agent：自动完成运筹优化问题的建模和求解。
   - OR-LLM-Agent automates modeling and solving of OR problems.
 - https://github.com/li-group/OptiChat | stars=74 | pushed=2026-09-26 | mode=- | contests=- | skills=-
