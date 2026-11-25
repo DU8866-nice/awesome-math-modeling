@@ -12,7 +12,7 @@ AI 正在改变数学建模比赛。过去半年，GitHub 上名称或描述含�
 
 这份清单把能用、仍在维护的项目按用途整理好，并把各赛事的 AI 规定放在最前面，用之前先弄清楚边界。
 
-收录 120 个项目 · 数据更新于 2026-11-23
+收录 125 个项目 · 数据更新于 2026-11-23
 
 **2027 美赛（MCM/ICM）：2027 年 1 月 28 日至 2 月 1 日（美东时间），距开赛还有 64 天。** 赛期以 [COMAP 官网](https://www.contest.comap.com/undergraduate/contests/mcm/) 为准。
 
@@ -21,11 +21,11 @@ AI 正在改变数学建模比赛。过去半年，GitHub 上名称或描述含�
 - [先看规则：比赛允许怎么用 AI](#rules)
 - [怎么挑](#pick)
 - [全流程 Agent 应用](#cat-agents)（7）
-- [全流程 Skill（Claude Code / Codex 等）](#cat-skills)（24）
+- [全流程 Skill（Claude Code / Codex 等）](#cat-skills)（27）
 - [专项 Skill：选题、选模型、单题型、摘要](#cat-focused)（11）
-- [研究生赛（华为杯）专用](#cat-gmcm)（3）
+- [研究生赛（华为杯）专用](#cat-gmcm)（4）
 - [论文评审、自查与 AI 使用说明](#cat-review)（4）
-- [论文模板（LaTeX / Typst）](#cat-templates)（9）
+- [论文模板（LaTeX / Typst）](#cat-templates)（10）
 - [教程与资料合集](#cat-learning)（9）
 - [算法与代码库](#cat-algorithms)（9）
 - [真题与获奖论文](#cat-papers)（14）
@@ -113,6 +113,9 @@ AI 正在改变数学建模比赛。过去半年，GitHub 上名称或描述含�
 - **[LEEHAHAHAHA/math-modeling-skill](https://github.com/LEEHAHAHAHA/math-modeling-skill)** · ★ 28<br>七阶段从读题到交付，机理模型优先，每问给 2–3 个不同方案，机器学习只做稳健性检验；附国赛 LaTeX 模板，可用于 Claude Code、Codex、WorkBuddy。<br><sub>更新于 2026-09 · 国赛 · 美赛 · 2 个 skill</sub>
 - **[cumcm-modeling-analyst](https://github.com/zhu-hailin/cumcm-modeling-analyst)** · ★ 28 · 🤝<br>在国赛里实际用过的协作 skill，逐问确认，把题目、模型和证据整理成队友看得懂的论文和交付物。<br><sub>更新于 2026-09 · 国赛</sub>
 - **[Math-Modeling-Agent-Flow](https://github.com/mantou6666/Math-Modeling-Agent-Flow)** · ★ 28<br>Solver → Paper → Finalizer → Growth 四个 skill，覆盖建模、论文、提交前检查和赛后复盘。<br><sub>更新于 2026-08 · 国赛 · 美赛 · MIT</sub>
+- **[MathModeling-Skills-Arsenal](https://github.com/cjh-solver/MathModeling-Skills-Arsenal)** · ★ - · 🤝<br>数模军械库：35 个 skill（含部分第三方 skill）加本地工作台，覆盖读题、选模型、数据分析、科研绘图到 LaTeX 论文工程；论文一次交一章，经你批准再写下一章，不直接生成最终论文。<br><sub>国赛 · 美赛 · 其他赛事 · 35 个 skill</sub><br><sub>💡 作者标注主控仍是开发快照</sub>
+- **[math-model-agent](https://github.com/chengziyue1222/math-model-agent)** · ★ -<br>证据优先的建模工具箱：25 个模块的 Python 算法库、8 个 Codex skill 和国赛 LaTeX 模板，分探索、竞赛、审计三档流程，带阶段门和断点恢复。<br><sub>国赛 · 美赛 · 华为杯 · 其他赛事 · 8 个 skill</sub>
+- **[mathmodel_workflow](https://github.com/smallpinksquare/mathmodel_workflow)** · ★ - · 🤝<br>国赛、美赛协作工作流：1 个总协调加 8 个配套 skill 和 3 个只读审查角色，每个小问固定一份总结，从建模、实现验证一直到 LaTeX 交接稿；支持 Codex、Claude Code、OpenCode，问题判断和关键取舍由你负责。<br><sub>国赛 · 美赛 · 9 个 skill</sub>
 
 <a id="cat-focused"></a>
 ## 专项 Skill：选题、选模型、单题型、摘要
@@ -139,6 +142,7 @@ AI 正在改变数学建模比赛。过去半年，GitHub 上名称或描述含�
 - **[hwb-math-modeling-skills](https://github.com/xieyouxixi/hwb-math-modeling-skills)** · ★ 191<br>围绕华为杯训练场景的读题、方案设计、模型适配、章节检查和全文评审 skill；作者说明适合赛前训练、自查和复盘。<br><sub>更新于 2026-10 · 华为杯</sub><br><sub>💡 赛中能否使用以当届规则为准</sub>
 - **[Huaweibei-cool](https://github.com/siyunhao2025-beep/Huaweibei-cool)** · ★ 86<br>以 2004–2024 年 729 篇华为杯获奖论文为底座：8 大题型原型、51 张方法卡、2022–2025 年 24 道题的赛道档案，LaTeX 和 Word 双链路。<br><sub>更新于 2026-09 · 华为杯 · 2 个 skill</sub>
 - **[Auto-Modeling-Skill](https://github.com/weibu123/Auto-Modeling-Skill)** · ★ 53<br>拆题、数据审计、建模、代码、验证到 LaTeX 交付的可复现工作流，内置 338 篇优秀论文索引和 67 篇深度蒸馏的知识库。<br><sub>更新于 2026-09 · 华为杯 · MIT</sub>
+- **[Huawei-Cup-Mathematical-Modeling-Skill](https://github.com/Taron0323/Huawei-Cup-Mathematical-Modeling-Skill)** · ★ -<br>华为杯 Codex skill，基于 2024 年数模之星冠亚季军和 10 篇提名论文（共 13 篇）的比较研究，辅助建模取舍、实验验证、论文修改和数模之星答辩准备。<br><sub>华为杯</sub>
 
 <a id="cat-review"></a>
 ## 论文评审、自查与 AI 使用说明
@@ -164,6 +168,7 @@ AI 正在改变数学建模比赛。过去半年，GitHub 上名称或描述含�
 - **[cumcm](https://github.com/jayxin/cumcm)** · ★ 38<br>国赛 LaTeX 模板。<br><sub>更新于 2026-08 · 国赛 · LPPL-1.3c</sub>
 - **[CUMCM-typst-template](https://github.com/a-kkiri/CUMCM-typst-template)** · ★ 34 · 💤<br>国赛 Typst 模板。<br><sub>更新于 2025-07 · 国赛 · Apache-2.0</sub>
 - **[GMCM2026-LaTeX](https://github.com/jirouvan/GMCM2026-LaTeX)** · ★ 33<br>2026 年华为杯 LaTeX 模板，带完整字体和版式配置。<br><sub>更新于 2026-09 · 华为杯</sub>
+- **[GMCM2026-LaTeX-Template](https://github.com/rudykon/GMCM2026-LaTeX-Template)** · ★ -<br>2026 年研究生赛 XeLaTeX 模板，排版取自一篇参赛论文，支持匿名版，含 AI 使用记录章节骨架和预览 PDF；作者说明未按新一轮赛事规范重新核验。<br><sub>华为杯</sub>
 
 <a id="cat-learning"></a>
 ## 教程与资料合集

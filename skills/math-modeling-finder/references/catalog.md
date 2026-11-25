@@ -101,6 +101,16 @@ Generated from data/tools.yaml. Fields: repo | stars | last push | mode | contes
 - https://github.com/mantou6666/Math-Modeling-Agent-Flow | stars=28 | pushed=2026-08-20 | mode=- | contests=cumcm,mcm | skills=-
   - Solver → Paper → Finalizer → Growth 四个 skill，覆盖建模、论文、提交前检查和赛后复盘。
   - Four skills, Solver, Paper, Finalizer and Growth, covering modeling, writing, pre-submission checks and a post-contest review.
+- https://github.com/cjh-solver/MathModeling-Skills-Arsenal | stars=? | pushed=? | mode=collab | contests=cumcm,mcm,other | skills=35
+  - 数模军械库：35 个 skill（含部分第三方 skill）加本地工作台，覆盖读题、选模型、数据分析、科研绘图到 LaTeX 论文工程；论文一次交一章，经你批准再写下一章，不直接生成最终论文。
+  - Mathematical Modeling Skills Arsenal: 35 skills, some of them third-party, plus a local workbench for problem reading, model choice, data analysis, figures and a LaTeX paper project; it drafts one chapter at a time and waits for your approval instead of producing a finished paper.
+  - caveat: The author marks the orchestrator as a development snapshot
+- https://github.com/chengziyue1222/math-model-agent | stars=? | pushed=? | mode=- | contests=cumcm,mcm,gmcm,other | skills=8
+  - 证据优先的建模工具箱：25 个模块的 Python 算法库、8 个 Codex skill 和国赛 LaTeX 模板，分探索、竞赛、审计三档流程，带阶段门和断点恢复。
+  - An evidence-first modeling toolkit with a 25-module Python algorithm library, eight Codex skills and a CUMCM LaTeX template, offering rapid, competition and audit modes with stage gates and resumable runs.
+- https://github.com/smallpinksquare/mathmodel_workflow | stars=? | pushed=? | mode=collab | contests=cumcm,mcm | skills=9
+  - 国赛、美赛协作工作流：1 个总协调加 8 个配套 skill 和 3 个只读审查角色，每个小问固定一份总结，从建模、实现验证一直到 LaTeX 交接稿；支持 Codex、Claude Code、OpenCode，问题判断和关键取舍由你负责。
+  - A collaborative CUMCM and MCM/ICM workflow with one coordinator, eight supporting skills and three read-only reviewers, a fixed summary per sub-question and a LaTeX hand-off draft; runs on Codex, Claude Code and OpenCode, and leaves problem judgment and key trade-offs to you.
 
 ## 专项 Skill：选题、选模型、单题型、摘要 / Focused skills: problem choice, model choice, one problem type, abstracts
 
@@ -150,6 +160,9 @@ Generated from data/tools.yaml. Fields: repo | stars | last push | mode | contes
 - https://github.com/weibu123/Auto-Modeling-Skill | stars=53 | pushed=2026-09-18 | mode=- | contests=gmcm | skills=-
   - 拆题、数据审计、建模、代码、验证到 LaTeX 交付的可复现工作流，内置 338 篇优秀论文索引和 67 篇深度蒸馏的知识库。
   - A reproducible workflow from decomposition and data audit to models, code, validation and LaTeX, with an index of 338 outstanding papers and a knowledge base distilled from 67 of them.
+- https://github.com/Taron0323/Huawei-Cup-Mathematical-Modeling-Skill | stars=? | pushed=? | mode=- | contests=gmcm | skills=-
+  - 华为杯 Codex skill，基于 2024 年数模之星冠亚季军和 10 篇提名论文（共 13 篇）的比较研究，辅助建模取舍、实验验证、论文修改和数模之星答辩准备。
+  - A Codex skill for the Huawei Cup built on a comparison of 13 papers from the 2024 Star of Modeling final (the top three and ten nominees), for modeling trade-offs, validation, paper revision and final-round defense prep.
 
 ## 论文评审、自查与 AI 使用说明 / Paper review, self-checks and AI-use statements
 
@@ -196,6 +209,9 @@ Generated from data/tools.yaml. Fields: repo | stars | last push | mode | contes
 - https://github.com/jirouvan/GMCM2026-LaTeX | stars=33 | pushed=2026-09-20 | mode=- | contests=gmcm | skills=-
   - 2026 年华为杯 LaTeX 模板，带完整字体和版式配置。
   - Huawei Cup 2026 LaTeX template with full font and layout setup.
+- https://github.com/rudykon/GMCM2026-LaTeX-Template | stars=? | pushed=? | mode=- | contests=gmcm | skills=-
+  - 2026 年研究生赛 XeLaTeX 模板，排版取自一篇参赛论文，支持匿名版，含 AI 使用记录章节骨架和预览 PDF；作者说明未按新一轮赛事规范重新核验。
+  - A XeLaTeX template for the 2026 graduate contest with layout taken from one team's paper, an anonymous option, an AI-use record section and a preview PDF; the author notes it has not been rechecked against the latest rules.
 
 ## 教程与资料合集 / Tutorials and study collections
 

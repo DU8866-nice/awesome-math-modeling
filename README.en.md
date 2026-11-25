@@ -12,7 +12,7 @@ AI is changing modeling contests. In the last six months alone, more than 1,600 
 
 This list sorts the projects that work and are still maintained by what they do, and puts the contest rules first so you know the limits before you start.
 
-120 projects · data refreshed 2026-11-23
+125 projects · data refreshed 2026-11-23
 
 **MCM/ICM 2027 runs January 28 – February 1, 2027 (EST): 64 days to go.** Check dates on the [COMAP contest site](https://www.contest.comap.com/undergraduate/contests/mcm/).
 
@@ -21,11 +21,11 @@ This list sorts the projects that work and are still maintained by what they do,
 - [Read the rules first: AI use in contests](#rules)
 - [Where to start](#pick)
 - [End-to-end agent apps](#cat-agents) (7)
-- [Full-workflow skills (Claude Code, Codex and others)](#cat-skills) (24)
+- [Full-workflow skills (Claude Code, Codex and others)](#cat-skills) (27)
 - [Focused skills: problem choice, model choice, one problem type, abstracts](#cat-focused) (11)
-- [For the graduate contest (Huawei Cup)](#cat-gmcm) (3)
+- [For the graduate contest (Huawei Cup)](#cat-gmcm) (4)
 - [Paper review, self-checks and AI-use statements](#cat-review) (4)
-- [Paper templates (LaTeX and Typst)](#cat-templates) (9)
+- [Paper templates (LaTeX and Typst)](#cat-templates) (10)
 - [Tutorials and study collections](#cat-learning) (9)
 - [Algorithms and code](#cat-algorithms) (9)
 - [Past problems and winning papers](#cat-papers) (14)
@@ -113,6 +113,9 @@ Skill packs for coding agents that cover the whole contest, from reading the pro
 - **[LEEHAHAHAHA/math-modeling-skill](https://github.com/LEEHAHAHAHA/math-modeling-skill)** · ★ 28<br>Seven stages from reading to delivery that favor mechanistic models, offer two or three distinct options per question and use machine learning only as a robustness check; ships a CUMCM LaTeX template.<br><sub>updated 2026-09 · CUMCM · MCM/ICM · 2 skills</sub>
 - **[cumcm-modeling-analyst](https://github.com/zhu-hailin/cumcm-modeling-analyst)** · ★ 28 · 🤝<br>A collaboration skill used in a real CUMCM that confirms each question with you and turns the problem, models and evidence into a paper and files teammates can follow.<br><sub>updated 2026-09 · CUMCM</sub>
 - **[Math-Modeling-Agent-Flow](https://github.com/mantou6666/Math-Modeling-Agent-Flow)** · ★ 28<br>Four skills, Solver, Paper, Finalizer and Growth, covering modeling, writing, pre-submission checks and a post-contest review.<br><sub>updated 2026-08 · CUMCM · MCM/ICM · MIT</sub>
+- **[MathModeling-Skills-Arsenal](https://github.com/cjh-solver/MathModeling-Skills-Arsenal)** · ★ - · 🤝<br>Mathematical Modeling Skills Arsenal: 35 skills, some of them third-party, plus a local workbench for problem reading, model choice, data analysis, figures and a LaTeX paper project; it drafts one chapter at a time and waits for your approval instead of producing a finished paper.<br><sub>CUMCM · MCM/ICM · Other contests · 35 skills</sub><br><sub>💡 The author marks the orchestrator as a development snapshot</sub>
+- **[math-model-agent](https://github.com/chengziyue1222/math-model-agent)** · ★ -<br>An evidence-first modeling toolkit with a 25-module Python algorithm library, eight Codex skills and a CUMCM LaTeX template, offering rapid, competition and audit modes with stage gates and resumable runs.<br><sub>CUMCM · MCM/ICM · Huawei Cup · Other contests · 8 skills</sub>
+- **[mathmodel_workflow](https://github.com/smallpinksquare/mathmodel_workflow)** · ★ - · 🤝<br>A collaborative CUMCM and MCM/ICM workflow with one coordinator, eight supporting skills and three read-only reviewers, a fixed summary per sub-question and a LaTeX hand-off draft; runs on Codex, Claude Code and OpenCode, and leaves problem judgment and key trade-offs to you.<br><sub>CUMCM · MCM/ICM · 9 skills</sub>
 
 <a id="cat-focused"></a>
 ## Focused skills: problem choice, model choice, one problem type, abstracts
@@ -139,6 +142,7 @@ Skills built for the China Graduate Mathematical Contest in Modeling, mostly dis
 - **[hwb-math-modeling-skills](https://github.com/xieyouxixi/hwb-math-modeling-skills)** · ★ 191<br>Skills for Huawei Cup practice covering reading, approach design, model fit, section checks and full reviews; the author positions it for training, self-review and post-contest review.<br><sub>updated 2026-10 · Huawei Cup</sub><br><sub>💡 Check the current year's rules before using it during the contest</sub>
 - **[Huaweibei-cool](https://github.com/siyunhao2025-beep/Huaweibei-cool)** · ★ 86<br>Built on 729 Huawei Cup winning papers from 2004–2024: eight problem archetypes, 51 method cards, files on 24 problems from 2022–2025, and both LaTeX and Word output.<br><sub>updated 2026-09 · Huawei Cup · 2 skills</sub>
 - **[Auto-Modeling-Skill](https://github.com/weibu123/Auto-Modeling-Skill)** · ★ 53<br>A reproducible workflow from decomposition and data audit to models, code, validation and LaTeX, with an index of 338 outstanding papers and a knowledge base distilled from 67 of them.<br><sub>updated 2026-09 · Huawei Cup · MIT</sub>
+- **[Huawei-Cup-Mathematical-Modeling-Skill](https://github.com/Taron0323/Huawei-Cup-Mathematical-Modeling-Skill)** · ★ -<br>A Codex skill for the Huawei Cup built on a comparison of 13 papers from the 2024 Star of Modeling final (the top three and ten nominees), for modeling trade-offs, validation, paper revision and final-round defense prep.<br><sub>Huawei Cup</sub>
 
 <a id="cat-review"></a>
 ## Paper review, self-checks and AI-use statements
@@ -164,6 +168,7 @@ The current year's official notice always wins; check page limits, cover pages a
 - **[cumcm](https://github.com/jayxin/cumcm)** · ★ 38<br>Another LaTeX template for CUMCM.<br><sub>updated 2026-08 · CUMCM · LPPL-1.3c</sub>
 - **[CUMCM-typst-template](https://github.com/a-kkiri/CUMCM-typst-template)** · ★ 34 · 💤<br>A Typst template for CUMCM.<br><sub>updated 2025-07 · CUMCM · Apache-2.0</sub>
 - **[GMCM2026-LaTeX](https://github.com/jirouvan/GMCM2026-LaTeX)** · ★ 33<br>Huawei Cup 2026 LaTeX template with full font and layout setup.<br><sub>updated 2026-09 · Huawei Cup</sub>
+- **[GMCM2026-LaTeX-Template](https://github.com/rudykon/GMCM2026-LaTeX-Template)** · ★ -<br>A XeLaTeX template for the 2026 graduate contest with layout taken from one team's paper, an anonymous option, an AI-use record section and a preview PDF; the author notes it has not been rechecked against the latest rules.<br><sub>Huawei Cup</sub>
 
 <a id="cat-learning"></a>
 ## Tutorials and study collections
