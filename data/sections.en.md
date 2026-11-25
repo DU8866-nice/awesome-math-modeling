@@ -9,11 +9,11 @@ This list sorts the projects that work and are still maintained by what they do,
 | Contest | Allowed? | What you must submit | If you don't comply |
 |---|---|---|---|
 | MCM/ICM ([COMAP policy](https://www.contest.comap.com/undergraduate/contests/mcm/flyer/Contest_AI_Policy.pdf), 2025) | Responsible use is permitted; the problems don't require AI | Cite AI use in the text and references, and append a **Report on Use of AI Tools** after the 25-page solution (it doesn't count toward the limit); for generative AI, include the queries and full outputs | COMAP takes action when it finds undisclosed use |
-| CUMCM ([2025 trial rules](https://github.com/EmpyreanHYR/CUMCM-AI-Usage-Report/blob/main/%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%AB%9E%E8%B5%9B%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%A7%84%E5%AE%9A%20.pdf), in Chinese) | Allowed, but the core modeling and analysis must be the team's own | Mark AI content in the text; list each tool's name, version, developer and date of use in the references; attach an **AI tool usage details** PDF with the tools, purpose, key prompts and replies, and what was kept or changed. Teams that used no AI must say so after the references | Disqualified from awards |
+| CUMCM ([2026 trial rules](https://www.mcm.edu.cn/html_cn/node/fef94648f2836ab6cc81586f4c38512b.html), in Chinese, in force from September 1, 2026) | Allowed but not required; the team must lead the core modeling and analysis and check everything AI contributed, item by item | An **AI tool use statement** before the references: the main purposes if you used AI, or "本参赛队在竞赛过程中未使用任何AI工具" (we used no AI tools) if you didn't. Teams that used AI add **AI工具使用详情.pdf** (AI tool usage details) to the supporting materials, with each tool's name and version, purpose and stage, how it was prompted and used, and what was kept, edited and verified | Handled by severity; hiding AI use, a false statement, or submitting unchecked AI output as the core modeling and analysis means disqualification from awards |
 | Huawei Cup graduate contest ([2025 rules](https://yjsb.zjnu.edu.cn/_upload/article/files/75/fc/43236cdd4cbfa29c3ed8006080e8/359fe3e7-2758-402c-b25d-b5a6868c5437.pdf), in Chinese) | As an aid only, never in place of the team's own thinking and core ideas | Final text in the team's own words; AI "models" and "formulas" without a verifiable source are not accepted; label AI-assisted data analysis and code with the tool's name, version, developer and date | Disqualified from awards |
 
 > [!IMPORTANT]
-> Rules change from year to year, so check the current year's official notice. The CUMCM link points to a copy of the rules kept in a contestant's repository; the Huawei Cup link points to a copy reposted by a university graduate school.
+> Rules change from year to year, so check the current year's official notice. The CUMCM link points to the official contest site; the Huawei Cup link points to a copy reposted by a university graduate school.
 
 In November 2026 the CUMCM committee published [a notice about contest papers with high similarity](https://www.mcm.edu.cn/html_cn/node/74c9193dcdfd44d026d2c3bf5f93695c.html); the details are in its attachments. When many teams use the same popular skill or the same prompts, ideas and wording tend to converge, which is one reason this list labels human-in-the-loop tools: keep the key decisions your own.
 
@@ -43,7 +43,7 @@ Most projects use the standard SKILL.md format. For Claude Code, put the folder 
 Yes. All three contests require you to state which tools you used and where. See [the rules](#rules).
 
 **Can I submit a paper an autopilot skill wrote?**
-Not a good idea. CUMCM requires the core modeling and analysis to be the team's own, and the Huawei Cup requires the final text in the team's own words. Autopilot tools are better for practice and for comparing ideas before the contest.
+Not a good idea. CUMCM requires the team to lead the core modeling and analysis, and submitting unchecked AI output as the core work means disqualification; the Huawei Cup requires the final text in the team's own words. Autopilot tools are better for practice and for comparing ideas before the contest.
 
 **Do you list tools that lower AI-detection scores?**
 No. Projects whose main pitch is beating AIGC detection are not listed. The contests ask for honest disclosure.
